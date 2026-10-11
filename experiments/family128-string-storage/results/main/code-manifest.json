@@ -1,0 +1,18 @@
+{
+  "AGENTS.md": "fcac052fba957401bb00626ae9d4ca3756f04486b90da217f98807ff516003da",
+  "README.md": "6ca498af13f8f06cbde5a122002460f22ee94b94cf4e732499261c1b57ff43f8",
+  "references/sources.json": "e37d72550ae2ac78b82ec87cf032058cc5a7ce8c9c88c5ed75cdac3132822b00",
+  "scripts/validate_port.py": "dfd107bf0dcc980885364f89582822a36b048df9cdb45cf4460051f071a85c99",
+  "scripts/verify_results.py": "8591d04f11124c5b5c4fb96d98b61772984c68469a9a85fdc071beb8720f3065",
+  "stringpack/__init__.py": "c7f8da9aca456b7e17effe987a947ecf8255ed04f4a98adeb6017b5e12cf53a1",
+  "stringpack/__main__.py": "353debda4dcd13c21f05387561f41feade0d080676601ff9396da075965dd792",
+  "stringpack/benchmark.py": "4dbaeddc5472d48bb7fbbaeb20284d87ccf29f127559f223b51daded02c5b80c",
+  "stringpack/datasets.py": "d0d7303b6323034a21a5bce7a89629ede0a32a5e907a20dee7e552d51c64f46e",
+  "stringpack/paper128.py": "a71203e2e7e8e12e5665c0fbbd7114ab2680fd667452d6e09b6d6f7db6aac4bb",
+  "stringpack/report.py": "2ee209f87133423bf7ac0072e2e1f48da3c2b8eaf0e281d37870a7454d9a4dac",
+  "stringpack/storage.py": "12d16b55e585ca4cba2803320ab4cd35ffedbde827be9b48633765ef7625178a",
+  "tests/__init__.py": "aa719ea00d434bf1a2e50d0bb4c3f38301f904e579921ba40e03a71cbde7808d",
+  "tests/test_cli.py": "19aec5516725ab18905dab339e92216055bd39dca412227568819b0743c0e6a7",
+  "tests/test_paper128.py": "63d9cb473a92dc811c20cca514f7388265b69adeead1ba7997594d398dda5fa4",
+  "tests/test_storage.py": "a4c0bc519e4a50400038c84edf6189c279569cfc258db60e2855739c1759da07"
+}

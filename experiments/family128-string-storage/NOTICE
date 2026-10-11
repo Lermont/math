@@ -1,0 +1,8 @@
+This project includes research reference material from the openai/math
+repository, commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb, under Apache-2.0.
+
+The Python implementation is a new translation of the mathematical
+construction; the storage formats, tests, and benchmarks are new code.
+It has not been formally verified and is not an upstream OpenAI release.
+
+Source links and stored-file hashes are recorded in references/sources.json.
