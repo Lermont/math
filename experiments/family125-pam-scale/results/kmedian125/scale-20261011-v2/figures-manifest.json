@@ -1,0 +1,12 @@
+{
+  "files": {
+    "environment.json": "f8bd1d428abcc843f001a177e700175f01b0db1b2ddf7ff3ada31e8e6fdcec47",
+    "overview.pdf": "7535798c704fa03560ff0318d9efbc7481c2031895be51656daf260fae5f806d",
+    "overview.png": "8cc640d4aebcbe2fa9051e4789cd2864376ea47cf0dba31da1891b05824411f1",
+    "overview.svg": "da91f9bf3a190d8f308b9cddf1e2a3b290e1c2eeeaff8ecef5cce14c954fb738",
+    "rare_tradeoff.pdf": "ebe54c2c72e5f4b66962d5bc1a8cbdc77b80b8755fa7face985e1c6fb34246c6",
+    "rare_tradeoff.png": "d163f115d0b92e4d38f830250272aa18ea3fff6c2cd75da4952b350e07546486",
+    "rare_tradeoff.svg": "8535411c6645e6195e2d109d10014e8c1f991d98097ac014e85b3aa20b991810"
+  },
+  "plot_source_sha256": "abf8178861f83704bee7f08f7ef4975cf210315a88d99f7f0d87bb135bb8d427"
+}
