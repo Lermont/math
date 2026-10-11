@@ -1,0 +1,19 @@
+{
+  "seeds": [32501, 32502],
+  "small_cases": [["symmetric_ring", 64], ["normal_cycle", 128], ["directed_regular", 128], ["directed_hub", 128], ["jordan", 64], ["grcar", 64]],
+  "large_cases": [["directed_regular", 1024, 32501], ["directed_hub", 1024, 32502], ["jordan", 2048, 32501]],
+  "tolerances": ["1e-4", "1e-7", "1e-10"],
+  "vectors": 8,
+  "repeats": 5,
+  "warmups": 1,
+  "order_seed": 3252026,
+  "collatz_iterations": 12,
+  "collatz_quantization": 1048576,
+  "approximation_budget": "0.9",
+  "reference_dps": 80,
+  "reference_check_dps": 110,
+  "reference_tail": "1e-60",
+  "arnoldi_step": 4,
+  "arnoldi_max": 80,
+  "arnoldi_stop_factor": 0.1
+}

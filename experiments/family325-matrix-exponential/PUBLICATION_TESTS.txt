@@ -1,0 +1,11 @@
+test_exact_enclosure_witness_against_dense_diagnostics (test_filter325.FilterChecks.test_exact_enclosure_witness_against_dense_diagnostics) ... ok
+test_nonnormal_scalar_boundary_bound_is_not_spectrum_bound (test_filter325.FilterChecks.test_nonnormal_scalar_boundary_bound_is_not_spectrum_bound) ... ok
+test_normal_controls (test_filter325.FilterChecks.test_normal_controls) ... ok
+test_old_constant_degree_and_counting_same_sparse_path (test_filter325.FilterChecks.test_old_constant_degree_and_counting_same_sparse_path) ... ok
+test_tail_against_high_precision_scalar_and_vector (test_filter325.FilterChecks.test_tail_against_high_precision_scalar_and_vector) ... ok
+test_zero_and_scalar (test_filter325.FilterChecks.test_zero_and_scalar) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.138s
+
+OK

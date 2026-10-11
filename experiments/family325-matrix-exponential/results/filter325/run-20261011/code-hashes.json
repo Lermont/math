@@ -1,0 +1,11 @@
+{
+  "filter325/benchmark.py": "eb85e7e43ce82a73bd3f2f030a86e9f5e45223470dc19fd5fd41a7e5f4d8dfc4",
+  "filter325/config.json": "438fc30843265ac1eee1e6efecf5835e24a6a8f3f8cab5100147fa2bef5f4753",
+  "filter325/core.py": "3ba369d9c2dcd3bb5e86974cf888e8b2c812e1b20a4e479fd54c7dfdfca24fb8",
+  "filter325/data.py": "1d878838e7e484e8eb83c63a35f04210c6225a0bff0d2bde8be038da619b456c",
+  "filter325/fetch_sources.py": "c13c55b87adc702f61167790f62a515716b4899ce414cedc27fb5e6c91699575",
+  "filter325/PLAN.md": "b9d04d9c7d9e6169b88c17f2faf40295d6cba734b7eb706498a5fd5bb79f94e2",
+  "filter325/requirements.txt": "5089e73076da5083ae049ea557e63bfcb96a36605736e06c837a8ba660e7ba0c",
+  "filter325/test_filter325.py": "388113a2df938e4f6918686d78c8a268a9310703400374b2f3f4d12eae764bcd",
+  "filter325/__init__.py": "ce183bd977e4d8e5526a59c045709cedbbf40e5f5729e77444db9c46c392c4f9"
+}

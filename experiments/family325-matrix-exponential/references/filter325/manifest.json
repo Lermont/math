@@ -1,0 +1,1069 @@
+{
+  "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "recursive_tree_truncated": true,
+  "coverage": "explicit primary papers and selected proof subtrees; not full repository",
+  "sources": [
+    {
+      "path": "references/filter325/al-mohy-higham-2011.pdf",
+      "url": "https://eprints.maths.manchester.ac.uk/1591/1/alhi11.pdf",
+      "sha256": "a8bc1d282cbda4aad92d231c84a656482def0f4d1747a92e140c6b32ef4e3c1b",
+      "bytes": 450177
+    },
+    {
+      "path": "references/filter325/crouzeix-palencia-2017.pdf",
+      "url": "https://arxiv.org/pdf/1702.00668",
+      "sha256": "0e33b65b3fab07632364111290e380b0696d7ace8168c9b834028de57d943c53",
+      "bytes": 123088
+    },
+    {
+      "path": "references/filter325/saad-1992.pdf",
+      "url": "https://www-users.cse.umn.edu/~saad/PDF/RIACS-90-ExpTh.pdf",
+      "sha256": "3c62b4527463ea05efa136cdaf502e8d35a62614efb90a2120508817dc11c974",
+      "bytes": 210898
+    },
+    {
+      "path": "references/filter325/scipy-expm-multiply.html",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.expm_multiply.html",
+      "sha256": "60d0b1199f99664befd7120cab4d67e5ed7eafde1d74309c461367ae839f7048",
+      "bytes": 34734
+    },
+    {
+      "path": "references/filter325/upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "references/filter325/upstream/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/README.md",
+      "sha256": "5e8878ee04866f52ec942852552b9c28db278f65691c7ab49a87c9e93a9199fd",
+      "bytes": 4190
+    },
+    {
+      "path": "references/filter325/upstream/history.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "sha256": "41c2a2d470014b3628695c7aabf5fd0c93f6f687621fca172062f22b59ed6a1e",
+      "bytes": 2281
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/CompleteCrouzeix.json",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/CompleteCrouzeix.json",
+      "sha256": "458866285eca662c7e35786aef3332e44d4d46edee29a4c0c09a8a67a46fa22c",
+      "bytes": 318
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/CompleteCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/CompleteCrouzeix.lean",
+      "sha256": "6b63c6180f5507b341b323af4668050a32226526f56359563286efc509e8afbc",
+      "bytes": 1316
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/CrouzeixHilbert.json",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/CrouzeixHilbert.json",
+      "sha256": "5f2b9d63efc1937249d9ecb46d14682387c68b5aa7c69e981a5e4566fd992ba3",
+      "bytes": 313
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/CrouzeixHilbert.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/CrouzeixHilbert.lean",
+      "sha256": "56701325ea99919665ab9055db16de0c74486ec5b6da5cfb7b533c248426509a",
+      "bytes": 6552
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/DirectCrouzeix.json",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/DirectCrouzeix.json",
+      "sha256": "26346f0920c9862517f30c4c3a016a5aea03913cca5c151dd1a26eee3e7a9f82",
+      "bytes": 371
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/DirectCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/DirectCrouzeix.lean",
+      "sha256": "6aff79e03dee428cf5a677dba39da0fe14fe3d9a989a7e6d4bc0f3bf2a148d22",
+      "bytes": 1353
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/HilbertCrouzeix.json",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/HilbertCrouzeix.json",
+      "sha256": "30760ad20eaffa391bb49c130ff9204ebdff9f09be66489f6a5900e71cab3c54",
+      "bytes": 488
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/HilbertCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/HilbertCrouzeix.lean",
+      "sha256": "23841ffc513082acb9bb26c50733c4efa852c41f94ec018d8271c0a74feae099",
+      "bytes": 6031
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/README.md",
+      "sha256": "2ed835b3c59709be6feffe0dec54fc9783fb26aa22d35517475a82ef5199c555",
+      "bytes": 1060
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/StructuralCrouzeix.json",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/StructuralCrouzeix.json",
+      "sha256": "bb8e7bf4a71d8064a57ea0099e299caa456fdea7d2fac8f73d74845bb163b4ba",
+      "bytes": 344
+    },
+    {
+      "path": "references/filter325/upstream/lean/ComparatorChallenges/StructuralCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/StructuralCrouzeix.lean",
+      "sha256": "f7c09beafdb635221e63e9846043df4347994d7df7f8d7858ead113cf049f205",
+      "bytes": 8095
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Amplification.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Amplification.lean",
+      "sha256": "e414165f8aa20061b73d68967f4807c906995304916d6f9282e88a7f0a9e20f6",
+      "bytes": 10802
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/AngularMeasure.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/AngularMeasure.lean",
+      "sha256": "f997ec14d57856a916701773401ab2adb869bcc6dc514b6ffaa3a29a4add8e71",
+      "bytes": 5103
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/AngularMoments.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/AngularMoments.lean",
+      "sha256": "01e798a309b24ceea71c14225442d60751453afc60dfb6675dc6361c09973fd8",
+      "bytes": 6166
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/AngularRadius.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/AngularRadius.lean",
+      "sha256": "9dce1eda8d57ede2fddb8ef7f9cd38113925516a2682efec0619c714e72f4dd7",
+      "bytes": 3679
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/AngularTransport.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/AngularTransport.lean",
+      "sha256": "1dc7c751df3a6ec43cb0b019a30436021b93b368873f4c4656f2294c06cf838f",
+      "bytes": 6348
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BlockPolynomial.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BlockPolynomial.lean",
+      "sha256": "bdeff5d4e8e737fa9541371ff3c407baaca9a326f4073cd5ed2ff4974af701b3",
+      "bytes": 7268
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryChart.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryChart.lean",
+      "sha256": "2c4cfc058e5b4cca60497bded0bc63d3b9fb363522f2e273056fabf35a37a3e6",
+      "bytes": 5573
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryFibers.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryFibers.lean",
+      "sha256": "7447dbad4efcf5d1f4b3b844e08650d9efc2b050776e10dd9695712618268c8a",
+      "bytes": 10928
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryForms.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryForms.lean",
+      "sha256": "369151cb36f895c3d6f78a46dbc30cab93aa8e1c4c1f65c9f1484c1edfdaf6dc",
+      "bytes": 34289
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryKernel.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryKernel.lean",
+      "sha256": "c354ab098c05d86b99dd1641ec763b870e3600f56e8c63b0c81072361764a8a5",
+      "bytes": 6894
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryModulus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryModulus.lean",
+      "sha256": "6ca0460b28b3b2d045085961c5e68ac7a609d6a1976de6262944f2511fb2dbfd",
+      "bytes": 3017
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryMoments.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryMoments.lean",
+      "sha256": "48183425805b18b9bfd6b2557f5e995d35bf2cb8cc0ffdc1b0c46a82ccc1078c",
+      "bytes": 10901
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryOperators.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryOperators.lean",
+      "sha256": "853dd6e88e8349561d4ae569ec4c2984b13fe697ff66bc1ab90e8a2f74ddf5af",
+      "bytes": 14524
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/BoundaryPatching.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/BoundaryPatching.lean",
+      "sha256": "f4170190e9036c372c8fe448edc1faa4aa2e7192f64caa3c3390c94ab37f075a",
+      "bytes": 4941
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/CauchyProjection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/CauchyProjection.lean",
+      "sha256": "44fa10540aed1faeac5c660437bf1ac7e98770fdee1cf7f2254549dba910f524",
+      "bytes": 5520
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/CircleAnalytic.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/CircleAnalytic.lean",
+      "sha256": "c1c77fc3df0778a550e64a1104e232fab68fde027a58670f1490745f0eae0520",
+      "bytes": 6046
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/CircleCoordinate.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/CircleCoordinate.lean",
+      "sha256": "c0a7d6e7de087f7bea0a19bdbf29be8af6bc3a2346fd1b885061c61a2753e451",
+      "bytes": 3179
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/CollarUnivalence.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/CollarUnivalence.lean",
+      "sha256": "459c5a9d5a5d7fc6eb8495fa7a061dcc2d66b07bfbe0f378c49ab3fe0c36b774",
+      "bytes": 5670
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/CompleteFinite.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/CompleteFinite.lean",
+      "sha256": "eb4a89359c17188f6fcb9047564545ba3ae5ee6a182dd8a7966e17ff80ea7f05",
+      "bytes": 6687
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Compression.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Compression.lean",
+      "sha256": "07b6d4f2b9aab9b2aed1227b3e14f2bf72e546bdb21631e09085a463a6765a14",
+      "bytes": 8802
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ConformalCollar.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ConformalCollar.lean",
+      "sha256": "4a4a7d07be46273b4ec942d9ccf071d80e916d7295ca40364f4993c1884d8e62",
+      "bytes": 4027
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ContourExistence.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ContourExistence.lean",
+      "sha256": "6880d3b1621681bd24e2e6063b2e367c555bb0598d912dc7c79eb7f22be512be",
+      "bytes": 13581
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ContourHomotopy.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ContourHomotopy.lean",
+      "sha256": "bc60abb30c8205eaed765af893585e716bc204168990a3c6b44663e243f7bc9f",
+      "bytes": 13554
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ContourPolynomials.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ContourPolynomials.lean",
+      "sha256": "4f2ab2c687b3a863a2f7d53e9e24f9dd0fe47745ed056cafaf47c41a9ec7c04c",
+      "bytes": 12814
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ConvexApproximation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ConvexApproximation.lean",
+      "sha256": "6628c097fff5550470fdf5389c35ccb0b18be1974c2910f24d5758585657eec6",
+      "bytes": 2407
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ConvexCoordinates.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ConvexCoordinates.lean",
+      "sha256": "339467a5a71e1f16f685470ba526a87487fa6e38d1ad3d8f11248e46e5b774d3",
+      "bytes": 3385
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ConvexNeighborhood.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ConvexNeighborhood.lean",
+      "sha256": "93854f97d7aac5e3ddd7e14f0af16ca47fbc8bd2b61d2cb93e4e2851a3be272e",
+      "bytes": 4287
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Convexity.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Convexity.lean",
+      "sha256": "8b74b1a06ad1ed088471bbb422072264b2063eeb2d43f9e3aabcf069de8441a3",
+      "bytes": 6014
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Definitions.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Definitions.lean",
+      "sha256": "b656fe82c4c28ae6faadd492f0f00aefa7b11e057882aa6ff6b8d295ca308c9b",
+      "bytes": 6274
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Density.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Density.lean",
+      "sha256": "bbec45e4c4625dff9b688b39660d4cf29cba193ec2cdd60bb413bca15e017eb0",
+      "bytes": 5681
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DensityCompatibility.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DensityCompatibility.lean",
+      "sha256": "428a5985a963f594fe818332bc3ba4c51faa988328156a35e60e728a5a6bed2f",
+      "bytes": 5872
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DiskAutomorphism.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DiskAutomorphism.lean",
+      "sha256": "2b4f75fc2f3e1da6e71a286a64a9b874f0ba9a3abaa87e763b0f0b821a0fc476",
+      "bytes": 3816
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DiskBoundaryChart.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DiskBoundaryChart.lean",
+      "sha256": "36025454b5e6e2b4e47a77cf65ddcda61275f3187987db92e69929a41b35e04b",
+      "bytes": 6165
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DiskCalculus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DiskCalculus.lean",
+      "sha256": "363fca20988f06d15c57002661ca5306e25dbeffc91e96ddbe81ddf5675043c0",
+      "bytes": 7287
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DiskEndpoint.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DiskEndpoint.lean",
+      "sha256": "95db24e7001495f0a0caf11146d3f374832c1ce8a7ef0c14b71b9686ac2d559d",
+      "bytes": 5072
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/DiskHolomorphic.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/DiskHolomorphic.lean",
+      "sha256": "e728fde6c0dd860ceb65b8aaf9187545129b4eb0c7d24218b017c2030c7b181b",
+      "bytes": 7567
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Endpoint.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Endpoint.lean",
+      "sha256": "0a2059594c02454ebe1f1107b964a8eadbc39ae9f0a64a5aa16f9537742acd5d",
+      "bytes": 22775
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/EndpointInterpolation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/EndpointInterpolation.lean",
+      "sha256": "680c48551a68fa2cd991322f5f3e10fbaa401088dd48889276dfdafdbc64b2b3",
+      "bytes": 6733
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorBoundaryChart.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorBoundaryChart.lean",
+      "sha256": "0efff805b2f13d212627dfa0454decba76a0a70ed1c03679138b346330f24d6f",
+      "bytes": 5291
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorCollar.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorCollar.lean",
+      "sha256": "64cd982e247e8ef055b40dbf57bc7cd77c0eb72c846020e22f12ad5d6fd804aa",
+      "bytes": 9712
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorContour.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorContour.lean",
+      "sha256": "1a792948e1b3b155c163424145c3161dd1de711373c989132e2c95ff918d214f",
+      "bytes": 8258
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorKernel.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorKernel.lean",
+      "sha256": "5652ed1b91ff9a6e48b44b7a214604c5f42f0519e2c8e5742afcd5348cc80bdc",
+      "bytes": 7931
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorNormal.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorNormal.lean",
+      "sha256": "3ae7dab76399b00d07e35180d07d440c53de1266554e8b0cbd4bfba3d3fc28a2",
+      "bytes": 3330
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ExteriorRiemann.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ExteriorRiemann.lean",
+      "sha256": "e7742a6e70fbe87b6414eb30094246cf8a2190ef20a71450fda912a8cef95ba5",
+      "bytes": 7911
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Faber.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Faber.lean",
+      "sha256": "4c21bb2fe88e734946bff53ffaf5a0f5435525f0804d31572506bff5aa490fb9",
+      "bytes": 12153
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/FiniteCompression.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/FiniteCompression.lean",
+      "sha256": "e48bf5bb85e8a5c7b00017b583697629f7158973456cc082da476328c2e3bf8a",
+      "bytes": 8356
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Fourier.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Fourier.lean",
+      "sha256": "b0716d2c94e3fd0cd0b1cd003c28b02443c8199c5eb1e916934b33831b76e371",
+      "bytes": 19337
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/FunctionalComposition.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/FunctionalComposition.lean",
+      "sha256": "4ca47533cd2791078cf2c691edcf6defcb3477a9e14247a9dc2d270b97bb46a6",
+      "bytes": 5279
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HarmonicMaximum.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HarmonicMaximum.lean",
+      "sha256": "273edf5de3cd358b08396c83d825c29d164f189a78026636d041c2b3c1bfb0ad",
+      "bytes": 3343
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HarmonicReflection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HarmonicReflection.lean",
+      "sha256": "2a8190885585cdb19c08baa8d0907b6bc793cd66fab7431c46b7846b1a11a574",
+      "bytes": 5975
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HilbertExtension.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HilbertExtension.lean",
+      "sha256": "1bfe79d5698bd2c8c53a0886b2314065d6c18ae4a3a939ea8c3892d6a5e1d18f",
+      "bytes": 3897
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HilbertInequality.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HilbertInequality.lean",
+      "sha256": "618e9c6aa25b1f7130547e73e486b90e768e0f648fab7590cd7261569f1d85c7",
+      "bytes": 479
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HolomorphicAlgebra.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HolomorphicAlgebra.lean",
+      "sha256": "715f2fafb4598d8c358cc1ca029761f38ce41037435f4159f6cc9c28793a8286",
+      "bytes": 7366
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HolomorphicReflection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HolomorphicReflection.lean",
+      "sha256": "c7ad509987add06799f153942307f45a382a61985e4c3939eb499840229141e8",
+      "bytes": 3390
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HolomorphicSpectrum.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HolomorphicSpectrum.lean",
+      "sha256": "01dc4f4cc3676cc0895ec42a3048508de1e85af70f47aa3f54e245a0f08c4631",
+      "bytes": 4609
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/HomologicalCauchy.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/HomologicalCauchy.lean",
+      "sha256": "389c935e7e475fbc05e5dc092df01815c9df24fc95f66df0c2aaa3116b6fda65",
+      "bytes": 20822
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Hurwitz.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Hurwitz.lean",
+      "sha256": "534a073b14435a0c9fb838e69d4bf45763e1dcd475c1d04af3f9f7726f731eb3",
+      "bytes": 5017
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/InteriorCollar.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/InteriorCollar.lean",
+      "sha256": "f5fed3735befe1a4f87802d348a6681cc0b13dcc2d72d6571fc3109c02c83d37",
+      "bytes": 2120
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Iteration.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Iteration.lean",
+      "sha256": "351cfd36655b5296acf6041b312b35530f6ced92760b23c9771143f234d9d6d3",
+      "bytes": 3381
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/LaurentSplit.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/LaurentSplit.lean",
+      "sha256": "672dd52bd27b2161676aa7c67a6f26b7f79596d56da6ad6e05551025c7465908",
+      "bytes": 2372
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Main.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Main.lean",
+      "sha256": "bf1ab9e285dad613622fcb1b3d89f094fdea92cd373c2d7460fb58ac5155cf6b",
+      "bytes": 3974
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/MatrixContours.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/MatrixContours.lean",
+      "sha256": "6f8fa9c1f8bb111af851ffc6aa2a28ab7252381fe995a861fca822651317a065",
+      "bytes": 9970
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/MatrixEndpoint.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/MatrixEndpoint.lean",
+      "sha256": "205d2e7aab0aa548150229d3a968a6907a55672bf5a4e010478193f33ae7b2e0",
+      "bytes": 11503
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/MetricBoundary.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/MetricBoundary.lean",
+      "sha256": "b88a375ad03e49a3e061a81d7c13466880479689c1f33a2fd9b9438ec814cce7",
+      "bytes": 7306
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Montel.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Montel.lean",
+      "sha256": "331f1c36bb3d5117878a5e510960da14a99f195c379b54dd132298e08133b215",
+      "bytes": 4851
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/NumericalRange.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/NumericalRange.lean",
+      "sha256": "04cb5bb9d6efa5f6ec4119d00fe473733c1bc745902ca25cbcca161e10d5b5ed",
+      "bytes": 9989
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalCalculus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalCalculus.lean",
+      "sha256": "7dd03db36232f8ab3c131b69c14575705d677071267554663a3bbc450e4e1a63",
+      "bytes": 6727
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalComparison.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalComparison.lean",
+      "sha256": "c328fc55056b799daf5dd15d14a1e635026de532fd40b2778af6500dddd694ba",
+      "bytes": 3682
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalDensity.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalDensity.lean",
+      "sha256": "e1b1460530142a691bc8022047ab4c799f9e0748d199c02564e4059cc58c9454",
+      "bytes": 5650
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalFourier.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalFourier.lean",
+      "sha256": "a3a3b6501aa865128e6fed5b591db683ba028fa7756a2aad0c57280b2fd57281",
+      "bytes": 11032
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalModule.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalModule.lean",
+      "sha256": "6223b662f43d53a2b24a27bb7a798d6f311a8d36929bbf0647d069c45411f25d",
+      "bytes": 11053
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PhysicalProjection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PhysicalProjection.lean",
+      "sha256": "3e8305d486850cd4574af232c43cfd572455722cb3788798e3d1b653b85b417b",
+      "bytes": 8971
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PoissonExtension.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PoissonExtension.lean",
+      "sha256": "082d15b35974e8cc232c5aab685ccac7836599d00f9dbf375a52668c81eee77e",
+      "bytes": 11067
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/PolynomialApproximation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/PolynomialApproximation.lean",
+      "sha256": "d03f67c4847cb46b15f78c0d93db6ed70809cabdb582c51c0abb07273b805be4",
+      "bytes": 20842
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/RationalContours.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/RationalContours.lean",
+      "sha256": "ea372137e00a0f50f1e4534d67f080329909113515ac9f0c02623696d3291f74",
+      "bytes": 18184
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/RationalEvaluation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/RationalEvaluation.lean",
+      "sha256": "4b9eb52ed3e64bfecbcff3aa77c6f51df25eef8cb577b06eb5f7691dcf63d28b",
+      "bytes": 4011
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/RationalTransfer.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/RationalTransfer.lean",
+      "sha256": "3e9554a5716b1735f5174a4b0bf29f5c10363a7a50b79180c9dfc01b461b50b6",
+      "bytes": 12563
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Realization.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Realization.lean",
+      "sha256": "d0a876895ac1bcc1de48adbe193619af6273698947c94d8b1f87b7b0d2f086d2",
+      "bytes": 9992
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ReflectionDerivative.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ReflectionDerivative.lean",
+      "sha256": "a240f191f13a31b34623cd089b09c7cd881a551331419b600ef98478a502feb0",
+      "bytes": 5547
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Resolvent.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Resolvent.lean",
+      "sha256": "f33c65bd3dd83b5da2056d1892649390559a56a5f5e7b283ce1d966feb636d42",
+      "bytes": 7734
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ResolventBounds.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ResolventBounds.lean",
+      "sha256": "bada8f47181d2869b927bb0161e9be9c9c166f2e588d62ca308cfeef078c927e",
+      "bytes": 15078
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/ResolventMoments.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/ResolventMoments.lean",
+      "sha256": "8041ad1580d6b447ac34c545f074266f00f0867a4490ca773ef3a229e20d9a7b",
+      "bytes": 6082
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Riemann.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Riemann.lean",
+      "sha256": "8dd3c492a96be5adcdb3db894552ec01a6bcde4e3865b0151a5f03105dbaa522",
+      "bytes": 9102
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/SeparateHolomorphic.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/SeparateHolomorphic.lean",
+      "sha256": "78831f3324ad4b2fa6f097f4faeea4e72706bf62803b95db0421a5694d7d22f2",
+      "bytes": 7014
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Sharpness.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Sharpness.lean",
+      "sha256": "e76e731ffb2f2a669a016e14aacef50c828cd0af160d65553568e4b186857084",
+      "bytes": 4247
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/SimilarityRepresentation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/SimilarityRepresentation.lean",
+      "sha256": "16e17a34247638b8d2e0ede3aba41615dde202453bf23dd7e987a25fb59c820e",
+      "bytes": 7828
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/SteinMetric.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/SteinMetric.lean",
+      "sha256": "d851b33e63b64483bad2de1524522e5da66c68d0826eef12109dbe27cd74e47a",
+      "bytes": 13527
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/TensorDensity.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/TensorDensity.lean",
+      "sha256": "0e51d8a4a3ffaec1a095ae53a350c907bceb5722460e42cd6193561e430ef1ca",
+      "bytes": 11155
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Univalent.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Univalent.lean",
+      "sha256": "e1dd530bceee6840ed3fefd229f5aa179a37b426d421c4225c1856265865db3e",
+      "bytes": 6697
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/Crouzeix/Vectorization.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/Crouzeix/Vectorization.lean",
+      "sha256": "f682a9693ed910a96399c47e0301c3ef14125584fa224217b61b0ac0ba6251d5",
+      "bytes": 4290
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/AnalyticCharts.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/AnalyticCharts.lean",
+      "sha256": "58e2a7afd7612773e7c0f2a04af97c658fdb356cf3554de3e94a7d1588922d68",
+      "bytes": 11287
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/BoundaryEnergy.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/BoundaryEnergy.lean",
+      "sha256": "1bc293fb8f61ec3b924e0179a348b94f9dac5cb27e4b4be2a8070247873eef30",
+      "bytes": 6470
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/BoundaryKernel.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/BoundaryKernel.lean",
+      "sha256": "79745513ff0095bba31cee63592b9ca768699b858699f2f4a5de2dc8c2cf9929",
+      "bytes": 13381
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/BoundaryParametrization.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/BoundaryParametrization.lean",
+      "sha256": "ae989f0f69973b5317c2f8d2ca485284a6c00b3708cbeff2765329283b618e3b",
+      "bytes": 5588
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/CircleFourier.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/CircleFourier.lean",
+      "sha256": "66476bed4c94326508f1d43d0a524e7250b3d90c1c820e643dfd2173dfa4ac67",
+      "bytes": 8681
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/CompactIntegrals.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/CompactIntegrals.lean",
+      "sha256": "226760ab0f9ef8a8b0eedcb3e86b9d3e606a4175d0b3f87edacdf8787d515090",
+      "bytes": 11082
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/CompleteBound.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/CompleteBound.lean",
+      "sha256": "c8f0706d92662aaca2d1a26fe7647b3719035f72177d68fbf5b490028f12e891",
+      "bytes": 2757
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ConformalCollar.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ConformalCollar.lean",
+      "sha256": "948b7204ae61dad649302f1bae992d3c1cf8331d3cc7d13a543fdcb0c4c8d9af",
+      "bytes": 10821
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Continuation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Continuation.lean",
+      "sha256": "8df83dbfdc4843ab3dd383b917f70385702902acfb1aa1412bf854d86e66db1a",
+      "bytes": 7457
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Convexity.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Convexity.lean",
+      "sha256": "e280e090b4570059746193f1148d93ea806c720b76faa0a1862d7d72a88600a0",
+      "bytes": 9843
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/DiskMapping.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/DiskMapping.lean",
+      "sha256": "0c1e418d9e28c5782a1b1b036e6996e4bed96098ac91fa33d2441e63f55c06a5",
+      "bytes": 12156
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/DividedDifferences.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/DividedDifferences.lean",
+      "sha256": "c1faf2bfa177e5b0cd5bb384a3273b271b1e53de5782a7dd757f46c0b957f94f",
+      "bytes": 8317
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/DomainBound.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/DomainBound.lean",
+      "sha256": "792e5f24630ef2911ba5287df5bc042c4df4a741f9ae2d47dcfb8901616ecd70",
+      "bytes": 4202
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/DomainCore.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/DomainCore.lean",
+      "sha256": "8c3ad69737fe2343607e665b27087a8016d43221a146eebd4b6879d833ddcb40",
+      "bytes": 7826
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Duality.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Duality.lean",
+      "sha256": "3b717a4dbb596ed52e342f3b3d7da991f5a70cf1a73e77a68678cd93fc2dc090",
+      "bytes": 3285
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ExponentialLevels.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ExponentialLevels.lean",
+      "sha256": "b0cbc3f7a690b7e48252b7a78431584e5ae16ad02db2e6a760d7108fa730d4ce",
+      "bytes": 6220
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ExponentialSupport.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ExponentialSupport.lean",
+      "sha256": "f383e5b2ff2806eafaa315aa2d0f7e2cf122dd450460aaabec719837d0c05d0c",
+      "bytes": 6172
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ExteriorCollar.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ExteriorCollar.lean",
+      "sha256": "05ebbcf8152552db266eceb0af5e9a22b354d635e001e266d5ba763fe5286657",
+      "bytes": 5353
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ExteriorMapping.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ExteriorMapping.lean",
+      "sha256": "2ea44bcaab8feca0b6466ab0e8e84c9489d34a10c38bceea0a08abe618d4b044",
+      "bytes": 8943
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/ExtremalEmbedding.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/ExtremalEmbedding.lean",
+      "sha256": "ae3e043f44d41a5651bfd258e302f8f4c2dc0a88260664fd5f9d342b8ba654c3",
+      "bytes": 9876
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/FaberCalculus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/FaberCalculus.lean",
+      "sha256": "f20170fdd57852a897afd84181628d881ee95227b9b9ae0d1457443c96ee5758",
+      "bytes": 9368
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/FaberEnergy.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/FaberEnergy.lean",
+      "sha256": "a7a4914685716845b1161f075ac562f2e20b3f395fe087e688b8299b9c7bcf08",
+      "bytes": 11084
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/FaberPolynomials.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/FaberPolynomials.lean",
+      "sha256": "2fc2fa56c8c54f616c584363177ecfbc049f23fa81cb31d5112a6a0fe14b0ee1",
+      "bytes": 9717
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/HarmonicReflection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/HarmonicReflection.lean",
+      "sha256": "c7caeecb17b69302268889ddbccb8022b93f30012f872e81e8f7bb25df836017",
+      "bytes": 8259
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/HilbertSchmidt.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/HilbertSchmidt.lean",
+      "sha256": "af64ac40c300a40f7a88d197c533ec5291451bba5356111ceac2b6b4523c60a5",
+      "bytes": 5399
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/HolomorphicReflection.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/HolomorphicReflection.lean",
+      "sha256": "7f13871bad8b852f5af2c999d9451dc8419f52bbc4ea9aca2300a89ab3e70663",
+      "bytes": 12722
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/InverseExterior.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/InverseExterior.lean",
+      "sha256": "b4aaf52916067ba98b8ec44771a6d2ae08b7ee0f396a1a9eb61917acb72cbe75",
+      "bytes": 6575
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/KernelContraction.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/KernelContraction.lean",
+      "sha256": "2a648dce84f28a064555c98f4da0dc49c98520a7d29a218ecbef32a31fa9148e",
+      "bytes": 9458
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Main.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Main.lean",
+      "sha256": "0a259924198d24e07a91764943aa2623b0cde487747f7c74a863d15dd50d3e71",
+      "bytes": 2051
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Model.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Model.lean",
+      "sha256": "3be01360e343e41c9712883d81e8845122ef13b2418640fa32c5e2fd22cdba84",
+      "bytes": 1208
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/NormalFamilies.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/NormalFamilies.lean",
+      "sha256": "cf9591c1497eca2d65d70b46d3479dd6f31385f6b17ff191cdd66586de1c2a8b",
+      "bytes": 11095
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/NumericalRange.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/NumericalRange.lean",
+      "sha256": "3b29e7e106eb2aafdcb4e2aa302ae0a1978c65c0dceb746344e6322a37bfb919",
+      "bytes": 2876
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/OuterApproximation.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/OuterApproximation.lean",
+      "sha256": "a7cc6181472d8830f53ef28e1efef4ffcd3eb88c71de671b4a92504b3aa7b245",
+      "bytes": 5236
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/PoissonBoundary.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/PoissonBoundary.lean",
+      "sha256": "0c0146c3e3bbed7e0481fe30665aee9641da62da822ec7d33ceb21790a46b4d0",
+      "bytes": 11059
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/PolynomialCalculus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/PolynomialCalculus.lean",
+      "sha256": "15b09b9cfb85b29628b0fe08cae2b1e0c9e1f122a84815ca3c0b5641eeb28c1a",
+      "bytes": 4263
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/PolynomialEnergy.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/PolynomialEnergy.lean",
+      "sha256": "7015c78df7181bd32d8aaa1632da7b92a9a56df241321c13a763857e4d4c7309",
+      "bytes": 12029
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/PositiveBlocks.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/PositiveBlocks.lean",
+      "sha256": "74695a483d53771ef5cbde120f37e677659f42fe9dc9592bb4875fc7769774a9",
+      "bytes": 2550
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Resolvent.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Resolvent.lean",
+      "sha256": "f6203e38b4543a691624aae33bfaa6fe9d391ac8bf3f90d8b9f6a4f8c87714cf",
+      "bytes": 6461
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/Sharpness.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/Sharpness.lean",
+      "sha256": "5c771889ea3273fd2eae905ab99dd8cd206605afad102929d27d5559b6b6338a",
+      "bytes": 3577
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/SingularPairs.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/SingularPairs.lean",
+      "sha256": "148b39d7df6831d6fc7ba50327f1594a0ba816668a28661fc8c1d6e82991f920",
+      "bytes": 5006
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/SupportNets.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/SupportNets.lean",
+      "sha256": "977dd328ac3812c075e264b757b9a38b2a95e7faa8f3b8f8f3176d8b77290134",
+      "bytes": 6197
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/DirectCrouzeix/TaylorFourier.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/DirectCrouzeix/TaylorFourier.lean",
+      "sha256": "31ab51406c444c711a2421a93a73b26130134a338c93f543a902c61de753b914",
+      "bytes": 8118
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Calculus.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Calculus.lean",
+      "sha256": "f86a549def0e07f973ed6041ba9757b381df9a063565af6d8993f37a271131e6",
+      "bytes": 4086
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Compression.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Compression.lean",
+      "sha256": "9437d28346a837f71b56fe33b0956bfb308f63cfd8b31a5c81a30646ea41d253",
+      "bytes": 6719
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Definitions.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Definitions.lean",
+      "sha256": "6216944d608bc151e41b40e8e133a58d992466feddb42a3c873cf273c5b8e000",
+      "bytes": 6662
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Main.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Main.lean",
+      "sha256": "d8f8c2950e544cf16a8d1878972109ceac4613e747352f96f6990850d4e8f490",
+      "bytes": 91
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/NumericalRange.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/NumericalRange.lean",
+      "sha256": "e3dea101d224930cff941bace056466e28187c316b811fec1b45768e99a879e8",
+      "bytes": 11115
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Sharpness.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Sharpness.lean",
+      "sha256": "e94828effef7fde4d8f815514709be85ac7ad2493afed6b7a66771b1c72251fe",
+      "bytes": 4261
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/HilbertCrouzeix/Spectrum.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/HilbertCrouzeix/Spectrum.lean",
+      "sha256": "da5e26653c3e85c6267395dd068f0a3be706421a637d2278e73d35bc8d2c7d52",
+      "bytes": 3796
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/ClosedSide.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/ClosedSide.lean",
+      "sha256": "75a2b8decdd092338c8d060c63884da0db724ce820a6c3d0570156b1edf37f67",
+      "bytes": 2502
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/Endpoint.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/Endpoint.lean",
+      "sha256": "9fcce1d3babe276a302041c177e25b5e09093e4051220bb59c8add28dc3a07c3",
+      "bytes": 390
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/ExteriorSupport.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/ExteriorSupport.lean",
+      "sha256": "f5e891cd079a6b33405a5e8b6fe7c21f375f54ee882e2c325b4594cec32ac670",
+      "bytes": 4991
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/GeometryBasics.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/GeometryBasics.lean",
+      "sha256": "93c94c9f3100dd7a35e384f4d67f73520abe12ba83c63309cd02c2dfd83d51f0",
+      "bytes": 2471
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/Main.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/Main.lean",
+      "sha256": "e802f96181bcb5bf5bb5e9861dc7265d1d0f3ce7e573b2c8f527d8da53d353f0",
+      "bytes": 3840
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/Model.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/Model.lean",
+      "sha256": "be56d78038ad45ed67aff1e48e1a2215072d4011373044bfd448f4b841daabb7",
+      "bytes": 3577
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/OptimizerAssembly.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/OptimizerAssembly.lean",
+      "sha256": "efe43a8c617f60022283056f6e2305a83c9487ea2949ac6dea1bdca63f477564",
+      "bytes": 4232
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/OrientBoundary.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/OrientBoundary.lean",
+      "sha256": "d2e1e0ac16e9e3e3d4c48eb20129d48c381d09d07eab671cb032844cd1d0e563",
+      "bytes": 6111
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/SharedDensity.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/SharedDensity.lean",
+      "sha256": "035320a6b57d5101ee3af8b1a9136d95532592569d790ad3ae66654771c313c1",
+      "bytes": 7305
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/SharedMaximum.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/SharedMaximum.lean",
+      "sha256": "cbb12e8e1ad6bd00dfdeb77de5311c0d0c95ca0273adbeba90b7dbbb811d7167",
+      "bytes": 3422
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/SimilarityMinimum.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/SimilarityMinimum.lean",
+      "sha256": "3f2a31959a81285f7c9a4e6385f455f0b01a3eca24896a5a6d8afb310bb0314c",
+      "bytes": 5920
+    },
+    {
+      "path": "references/filter325/upstream/lean/OAI/Analysis/StructuralCrouzeix/UnitDisk.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Analysis/StructuralCrouzeix/UnitDisk.lean",
+      "sha256": "160f0a655f1b555fd280ad94727f580326cb78071433c6ffc663063fec75925d",
+      "bytes": 1626
+    },
+    {
+      "path": "references/filter325/upstream/lean/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/README.md",
+      "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b",
+      "bytes": 650
+    },
+    {
+      "path": "references/filter325/upstream/lean/docs/325.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/325.md",
+      "sha256": "e44548f4f54b1e408506529aac102b3a2bfcf930ddb5145afb4b193a97dee54b",
+      "bytes": 2508
+    },
+    {
+      "path": "references/filter325/upstream/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/README.md",
+      "sha256": "30acd8ce8494d76f343f2468bc5e4d3678f95ee9b1c97b20104ae389ed60a607",
+      "bytes": 610
+    },
+    {
+      "path": "references/filter325/upstream/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+      "sha256": "54a429fe7129b4760b3015fabf2269d4de5fa38aba9539b18542c1df7e58333f",
+      "bytes": 35174
+    },
+    {
+      "path": "references/filter325/upstream/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/paper.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/paper.pdf",
+      "sha256": "d9aa4ef2dccb1f044fdf78afd7a4c93f64e71bd60e53d0f0460329596f199bb6",
+      "bytes": 315777
+    },
+    {
+      "path": "references/filter325/upstream/preprints/The-complete-Crouzeix-theorem-September-23-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-complete-Crouzeix-theorem-September-23-2026/README.md",
+      "sha256": "56858fa983870da1753c3365395039c88dc1a72ff12e70e878a3a542dd8520ee",
+      "bytes": 637
+    },
+    {
+      "path": "references/filter325/upstream/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+      "sha256": "8a5de532bd3bd4c0b84cc8114c22175968813a6e984ced0d1bf48011270e621c",
+      "bytes": 69205
+    },
+    {
+      "path": "references/filter325/upstream/preprints/The-complete-Crouzeix-theorem-September-23-2026/paper.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-complete-Crouzeix-theorem-September-23-2026/paper.pdf",
+      "sha256": "b5e37fffcae2be84577cdc73f8d0ae459ecc85da994dcf605c38f69539cc962b",
+      "bytes": 431297
+    }
+  ]
+}
