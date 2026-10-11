@@ -1,0 +1,10 @@
+test_distances_exact_and_bounded_blocks (kmedian125.scale.test_scale.ScaleChecks.test_distances_exact_and_bounded_blocks) ... ok
+test_fasterpam_float32_loss_is_full_integer_cost (kmedian125.scale.test_scale.ScaleChecks.test_fasterpam_float32_loss_is_full_integer_cost) ... ok
+test_native_onebatch_callable_matches_precomputed (kmedian125.scale.test_scale.ScaleChecks.test_native_onebatch_callable_matches_precomputed) ... ok
+test_probability_against_enumeration (kmedian125.scale.test_scale.ScaleChecks.test_probability_against_enumeration) ... ok
+test_score_against_scalar_and_permuted_ids (kmedian125.scale.test_scale.ScaleChecks.test_score_against_scalar_and_permuted_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK

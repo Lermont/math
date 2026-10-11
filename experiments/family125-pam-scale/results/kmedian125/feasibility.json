@@ -1,0 +1,29 @@
+[
+  {
+    "epsilon": "0.5",
+    "preparation_t": "0.0125",
+    "approximation_upper": 2.2357588823428847,
+    "delta_lower_bound": "6.419839992201216E+21",
+    "log10_delta": 21.80752420386791,
+    "minimum_8byte_copy_storage_bytes": "5.1358719937609728E+22",
+    "seconds_at_one_billion_copies_per_second": "6419839992201.216"
+  },
+  {
+    "epsilon": "0.2",
+    "preparation_t": "0.005",
+    "approximation_upper": 1.9357588823428846,
+    "delta_lower_bound": "5.9871939388416E+25",
+    "log10_delta": 25.777223326160478,
+    "minimum_8byte_copy_storage_bytes": "4.78975515107328E+26",
+    "seconds_at_one_billion_copies_per_second": "5.9871939388416E+16"
+  },
+  {
+    "epsilon": "0.1",
+    "preparation_t": "0.0025",
+    "approximation_upper": 1.8357588823428848,
+    "delta_lower_bound": "6.0852190682087424E+28",
+    "log10_delta": 28.784276217471863,
+    "minimum_8byte_copy_storage_bytes": "4.86817525456699392E+29",
+    "seconds_at_one_billion_copies_per_second": "6.0852190682087424E+19"
+  }
+]

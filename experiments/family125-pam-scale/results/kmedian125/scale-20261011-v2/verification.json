@@ -1,0 +1,25 @@
+{
+  "all_checks_passed": true,
+  "checked_runs": 576,
+  "checked_client_assignments": 2718000,
+  "datasets": 42,
+  "frozen_inputs_unchanged": true,
+  "original_pilot_unchanged": true,
+  "reference_files_verified": 61,
+  "wheel_members_verified": 6,
+  "full_objective": "independent per-medoid integer evaluation for every run",
+  "analysis_sha256": "300968c6308d34aea2060baf5af1ca461d38dd51f7904f1be4551583c70562f0",
+  "statuses": {
+    "ok": 576
+  },
+  "max_iteration_reached": 0,
+  "iteration_counter_note": "OneBatch steps is zero-based; audit compares with max_iter-1, independently of the raw flag.",
+  "max_observed_counter_by_method": {
+    "fasterpam": 5,
+    "onebatch64": 2,
+    "onebatch256": 2,
+    "onebatch_auto": 4,
+    "onebatch_2auto": 4,
+    "onebatch_full": 2
+  }
+}

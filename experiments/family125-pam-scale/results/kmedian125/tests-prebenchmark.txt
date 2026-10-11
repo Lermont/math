@@ -1,0 +1,13 @@
+test_all_triangle_inequalities_and_independent_evaluator (kmedian125.test_kmedian125.MetricTests.test_all_triangle_inequalities_and_independent_evaluator) ... ok
+test_reject_nonmetric_and_bad_medoid_ids (kmedian125.test_kmedian125.MetricTests.test_reject_nonmetric_and_bad_medoid_ids) ... ok
+test_distinct_candidates_model (kmedian125.test_kmedian125.OptimizationTests.test_distinct_candidates_model) ... ok
+test_library_baselines_objective_and_feasibility (kmedian125.test_kmedian125.OptimizationTests.test_library_baselines_objective_and_feasibility) ... ok
+test_milp_and_dual_against_proven_optima (kmedian125.test_kmedian125.OptimizationTests.test_milp_and_dual_against_proven_optima) ... ok
+test_swap_local_optimum_and_edge_budgets (kmedian125.test_kmedian125.OptimizationTests.test_swap_local_optimum_and_edge_budgets) ... ok
+test_complete_exact_moments (kmedian125.test_kmedian125.RoundingTests.test_complete_exact_moments) ... ok
+test_sampled_budget_and_quantization (kmedian125.test_kmedian125.RoundingTests.test_sampled_budget_and_quantization) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.367s
+
+OK

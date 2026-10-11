@@ -1,0 +1,45 @@
+{
+  "started_utc": "2026-10-11T20:24:40.809841+00:00",
+  "python": "3.11.16 (main, Aug 25 2026, 13:59:19) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\projects\\math\\.venv-kmedian125\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "logical_cpu": 0,
+  "logical_cpus": 16,
+  "physical_cores": 16,
+  "total_ram": 33752997888,
+  "available_ram": 3288662016,
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.3",
+    "kmedoids": "0.5.5",
+    "onebatch": "0.1.0",
+    "psutil": "7.1.3",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.7.0"
+  },
+  "source_sha256": {
+    "__init__.py": "6eeaab12ee58d4d2e1c41b27d025b7e35ecda808d02ff36e8cf0e1d6d8f86ed4",
+    "config.json": "2dfa39e8bfa309d6a2fdd3d4f5d72b50b0109c3d72d428bbc94204c065a9b7f1",
+    "core.py": "8fca16216d9d81e32f85feca24aa13797a93a535c36316f22431dfdd83047fc3",
+    "PLAN.md": "d2171805d7d21f3dec37f98d04843886543cb19f15f0c22e0f0c199d6ec5172c",
+    "README.md": "04faec62f8be7e448c88d2acacb8153badf8708dee761152945971c175164492",
+    "run.py": "b71b918b4aa57ca0a7b7aca3d89be6b07e24785e2ef45bbdfe9cda4367fe2198",
+    "test_scale.py": "7436b4c5e97f405d97e73b368ee302bc72d8b4613a5efaaafae960b83dafaca3",
+    "worker.py": "e9ac347f65ce519c5ebe4dc40fb4bb68794eadbb91a2bb94c1e11082449851b7"
+  },
+  "installed_package_sha256": {
+    "onebatch\\__init__.py": "28fe76ee1ce077839ed4f054ea1b069299e655dafb48f2491d279149078172bc",
+    "onebatch\\onebatchpam.py": "9948fb8c2cc8ae86d828aa22a362da2b7ee9b17721d6dab4a5948a7fe8a28c95",
+    "onebatch\\pam.cp311-win_amd64.pyd": "d1b8c70b1ba7ea56f14a61bff12584e135cef564fb0f0022d66384faaa21ff5c",
+    "onebatch\\pam.pyx": "3b2e2b9c1b6ae1f7c3850140a10d11abb54074e4f83a81f72b376953c4101de9",
+    "kmedoids\\__init__.py": "657ae5498aafff41e8ebc7161e4b3a33643428221ead25b4b0165b62d7361289",
+    "kmedoids\\kmedoids.cp311-win_amd64.pyd": "504fe75f716e741e429013afe5bebf4442b51f81d60fc2ef0967a3cb834e056c"
+  },
+  "sources_manifest_sha256": "d04e93019a75867e9186869a809707660c85698894ffbdeddeab46433be7adae",
+  "original_pilot_raw_sha256": "8fcec93d6fea0469457cca46850e7f60134e60b448ebaf866d2b9b9bc2cce2d2",
+  "original_pilot_inputs_unchanged": true,
+  "schedule_sha256": "f5c80bd0b9c5034f59634c99993fdbcb77c165fb6db31fb1bcdd26a6f9f1f5d7",
+  "matrix_cache": false,
+  "threads": 1
+}

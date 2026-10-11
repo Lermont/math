@@ -1,0 +1,11 @@
+{
+  "independent_cost_checks": 380,
+  "exact_dual_checks": 84,
+  "shared_pairs_checked": 130,
+  "exact_small_crosschecks": 8,
+  "data_hashes_verified": 36,
+  "strengthened_dual_checks": 84,
+  "strengthened_certificate_seconds": 0.5693985000252724,
+  "failures": [],
+  "postrun_verification_seconds": 1.7428944999701343
+}
