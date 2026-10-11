@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "datasets": 11,
+  "saved_archives": 64,
+  "upstream_files": 10,
+  "checks": [
+    "dataset hashes",
+    "trace hashes",
+    "archive sizes and hashes",
+    "all original strings in original order",
+    "sampled ID reads",
+    "pinned reference hashes"
+  ]
+}

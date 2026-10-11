@@ -1,0 +1,14 @@
+test_collective_connection_against_exact_oracle (tests.test_paper128.Paper128Tests.test_collective_connection_against_exact_oracle) ... ok
+test_deterministic_and_limit_is_explicit (tests.test_paper128.Paper128Tests.test_deterministic_and_limit_is_explicit) ... ok
+test_exhaustive_binary_up_to_four_words_length_three (tests.test_paper128.Paper128Tests.test_exhaustive_binary_up_to_four_words_length_three) ... ok
+test_intermediate_length_blocker_regression (tests.test_paper128.Paper128Tests.test_intermediate_length_blocker_regression) ... ok
+test_periods_duplicates_empty_and_binary (tests.test_paper128.Paper128Tests.test_periods_duplicates_empty_and_binary) ... ok
+test_random_against_exact_oracle (tests.test_paper128.Paper128Tests.test_random_against_exact_oracle) ... ok
+test_reject_unknown_and_truncated_archives (tests.test_storage.StorageTests.test_reject_unknown_and_truncated_archives) ... ok
+test_round_trip_and_size_accounting (tests.test_storage.StorageTests.test_round_trip_and_size_accounting) ... ok
+test_file_round_trip_with_binary_duplicates_and_empty (tests.test_cli.CliTests.test_file_round_trip_with_binary_duplicates_and_empty) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.792s
+
+OK

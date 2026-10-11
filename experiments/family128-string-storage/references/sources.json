@@ -1,0 +1,57 @@
+{
+  "repository": "openai/math",
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "files": [
+    {
+      "path": "references/upstream/sections/01-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/01-introduction.tex",
+      "sha256": "fc304ad0de2c82353fc0e7e3e767ebf126766a5f7620817516d13a1e7ebd10d0"
+    },
+    {
+      "path": "references/upstream/sections/02-counts.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/02-counts.tex",
+      "sha256": "8b06570cf6a23cc036482091e2d358b002877207038a662c66a7a604235bf361"
+    },
+    {
+      "path": "references/upstream/sections/03-layers.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/03-layers.tex",
+      "sha256": "4aa238f65677a959da3a1ea710f720a4e68ed71609df9f5506d12625e5620708"
+    },
+    {
+      "path": "references/upstream/sections/04-connections.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/04-connections.tex",
+      "sha256": "81f215ba1f3b3b5756b8c79a7b3eb3a8c329eb6c7ad5a1b7a8a4d2f695325183"
+    },
+    {
+      "path": "references/upstream/sections/05-processing.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/05-processing.tex",
+      "sha256": "3dda64d27fbafb44fbcd33b8245a657972a135c58c706400b746fa2336062628"
+    },
+    {
+      "path": "references/upstream/sections/06-cycles.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/06-cycles.tex",
+      "sha256": "20b008e0fa9d2c55eea549c38344cb46f219d3af06f957e880b89d921617f4c2"
+    },
+    {
+      "path": "references/upstream/sections/07-algorithm.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026/build/sections/07-algorithm.tex",
+      "sha256": "521bc587b5323acb342f4562c27751859852cb779574f035fa5e323902573fcb"
+    },
+    {
+      "path": "references/upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/LICENSE",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+    },
+    {
+      "path": "references/upstream/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/README.md",
+      "sha256": "ee59ae9643b4314f8f92709814a5cd7a98a2242dfd134cd39ead853aa84a98a9"
+    },
+    {
+      "path": "references/upstream/lean/WalkOutput.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Computability/Superstring/WalkOutput.lean",
+      "sha256": "2fe7c49d066c4d23037489ebcebbc7c21fc15afa5a5f419a980d77beb8cd723b"
+    }
+  ],
+  "hash_note": "SHA-256 of stored UTF-8 snapshots; trailing newlines may differ from upstream raw files."
+}

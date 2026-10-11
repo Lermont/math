@@ -1,0 +1,26 @@
+test_file_round_trip_with_binary_duplicates_and_empty (test_cli.CliTests.test_file_round_trip_with_binary_duplicates_and_empty) ... ok
+test_both_samplers_preserve_graph (test_graph131.Graph131Tests.test_both_samplers_preserve_graph) ... ok
+test_conventional_kernel_exact (test_graph131.Graph131Tests.test_conventional_kernel_exact) ... ok
+test_direction_and_multiplicity_control (test_graph131.Graph131Tests.test_direction_and_multiplicity_control) ... ok
+test_exhaustive_kernel (test_graph131.Graph131Tests.test_exhaustive_kernel)
+Independent degree-space enumeration, not a second switch algorithm. ... ok
+test_frozen_and_reproducible (test_graph131.Graph131Tests.test_frozen_and_reproducible) ... ok
+test_structural_counts_independent_matrix (test_graph131.Graph131Tests.test_structural_counts_independent_matrix) ... ok
+test_ties_and_validation_threshold (test_graph131.Graph131Tests.test_ties_and_validation_threshold) ... ok
+test_cap_deterministic_and_direction_preserved (test_graph131_context.ContextTests.test_cap_deterministic_and_direction_preserved) ... ok
+test_marked_counts_against_matrix_and_cliques (test_graph131_context.ContextTests.test_marked_counts_against_matrix_and_cliques) ... ok
+test_null_reproducible_budget_and_frozen (test_graph131_context.ContextTests.test_null_reproducible_budget_and_frozen) ... ok
+test_split_isolation_and_original_preservation (test_graph131_context.ContextTests.test_split_isolation_and_original_preservation) ... ok
+test_collective_connection_against_exact_oracle (test_paper128.Paper128Tests.test_collective_connection_against_exact_oracle) ... ok
+test_deterministic_and_limit_is_explicit (test_paper128.Paper128Tests.test_deterministic_and_limit_is_explicit) ... ok
+test_exhaustive_binary_up_to_four_words_length_three (test_paper128.Paper128Tests.test_exhaustive_binary_up_to_four_words_length_three) ... ok
+test_intermediate_length_blocker_regression (test_paper128.Paper128Tests.test_intermediate_length_blocker_regression) ... ok
+test_periods_duplicates_empty_and_binary (test_paper128.Paper128Tests.test_periods_duplicates_empty_and_binary) ... ok
+test_random_against_exact_oracle (test_paper128.Paper128Tests.test_random_against_exact_oracle) ... ok
+test_reject_unknown_and_truncated_archives (test_storage.StorageTests.test_reject_unknown_and_truncated_archives) ... ok
+test_round_trip_and_size_accounting (test_storage.StorageTests.test_round_trip_and_size_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 9.372s
+
+OK
