@@ -1,0 +1,13 @@
+test_both_samplers_preserve_graph (test_graph131.Graph131Tests.test_both_samplers_preserve_graph) ... ok
+test_conventional_kernel_exact (test_graph131.Graph131Tests.test_conventional_kernel_exact) ... ok
+test_direction_and_multiplicity_control (test_graph131.Graph131Tests.test_direction_and_multiplicity_control) ... ok
+test_exhaustive_kernel (test_graph131.Graph131Tests.test_exhaustive_kernel)
+Independent degree-space enumeration, not a second switch algorithm. ... ok
+test_frozen_and_reproducible (test_graph131.Graph131Tests.test_frozen_and_reproducible) ... ok
+test_structural_counts_independent_matrix (test_graph131.Graph131Tests.test_structural_counts_independent_matrix) ... ok
+test_ties_and_validation_threshold (test_graph131.Graph131Tests.test_ties_and_validation_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.650s
+
+OK

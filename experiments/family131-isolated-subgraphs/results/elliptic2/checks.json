@@ -1,0 +1,19 @@
+{
+  "command": ".\\.venv-graph131\\Scripts\\python.exe -m unittest discover -s tests -p test_graph131.py -v",
+  "status": "passed",
+  "tests": 7,
+  "reported_test_seconds": 1.338,
+  "exhaustive_paper_states": 1158,
+  "exact_edge_control_states": 70,
+  "test_file_sha256": "702fd95f8a1187614b0539c34d5213cb7c05a3df74794a5a791eca55763c03c4",
+  "saved_matrix_audit": {
+    "status": "passed",
+    "seeds": [
+      131,
+      132,
+      133
+    ],
+    "identical_ids_and_basic_features": true,
+    "identical_graph_features_for_graph_paper_edge_directed": true
+  }
+}

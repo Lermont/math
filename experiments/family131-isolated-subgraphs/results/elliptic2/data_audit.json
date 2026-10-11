@@ -1,0 +1,41 @@
+{
+  "seed": 1312026,
+  "source_subgraphs": 121810,
+  "source_suspicious": 2763,
+  "source_node_memberships": 444521,
+  "unique_source_nodes": 444521,
+  "source_edge_rows": 367137,
+  "source_self_loops": 0,
+  "cross_subgraph_edges": 0,
+  "missing_endpoints": 0,
+  "sample_subgraphs": 20000,
+  "sample_sha256": "dce89c6653a3f4ff16c9c2e4cbab8e7156003726b991d88cd45fe2aa05e91917",
+  "sample_removed_parallel_or_reverse_edges": 5119,
+  "transaction_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "node_overlap": 0,
+  "split": {
+    "train": {
+      "count": 12000,
+      "suspicious": 272
+    },
+    "val": {
+      "count": 4000,
+      "suspicious": 91
+    },
+    "test": {
+      "count": 4000,
+      "suspicious": 91
+    }
+  },
+  "sample_fewer_than_four_nodes": 13481,
+  "sample_max_nodes": 123,
+  "raw_hashes": {
+    "connected_components.csv": "79511c49f76110d0feae7feda7e85279bc442efe31f5e7a9f53b2caf0019062b",
+    "edges.csv": "cd5706110242ddb5505074f65287c45f1ff7dbfb52a0ef1c2e6a45da569e3ad0",
+    "nodes.csv": "c39fe3ac90da31b0684ec2c55d52225aa41a8fa1edccff8aff5ae1fd8817de18"
+  }
+}

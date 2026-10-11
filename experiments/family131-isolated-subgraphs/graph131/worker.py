@@ -1,0 +1,104 @@
+"""One fresh process per measured method; no feature-cache advantage."""
+from __future__ import annotations
+
+import os
+for _name in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS"):
+    os.environ[_name] = "1"
+
+import argparse
+import json
+import platform
+import sys
+import time
+from pathlib import Path
+
+import networkx as nx
+import numpy as np
+import pandas as pd
+import psutil
+import scipy
+import sklearn
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.tree import DecisionTreeClassifier, export_text
+from threadpoolctl import threadpool_limits
+
+from .data import OUT
+from .directed import DIRECTED_NAMES, directed_features
+from .evaluate import metrics, threshold_at_fpr
+from .features import BASIC_NAMES, GRAPH_NAMES, basic_features, graph_features
+from .switches import NULL_NAMES, null_features
+
+
+def run(method, seed, burn=512, samples=32, stride=64, suffix=""):
+    started = time.perf_counter()
+    records = json.loads((OUT / "sample.json").read_text(encoding="utf-8"))
+    start_rss = psutil.Process().memory_info().rss
+    destination = OUT / f"seed{seed}{suffix}"
+    destination.mkdir(parents=True, exist_ok=True)
+    with_graph = method in ("graph", "paper", "edge", "directed")
+    directed = json.loads((OUT / "directed.json").read_text(encoding="utf-8")) if method == "directed" else None
+    names = BASIC_NAMES + (GRAPH_NAMES if with_graph else []) + (NULL_NAMES if method in ("paper", "edge") else []) + (DIRECTED_NAMES if directed is not None else [])
+    x = np.empty((len(records), len(names)), dtype=float)
+    timing = {s: 0.0 for s in ("train", "val", "test")}
+    diagnostics = []
+    for i, r in enumerate(records):
+        begin = time.perf_counter()
+        values = basic_features(r)
+        if with_graph:
+            values += graph_features(r, seed=seed + r["id"])
+        if directed is not None:
+            values += directed_features(r["n"], directed[str(r["id"])])
+        if method in ("paper", "edge"):
+            v, diag = null_features(r["n"], r["edges"], kernel=method, seed=seed * 1_000_003 + r["id"], burn=burn, samples=samples, stride=stride)
+            values += v.tolist()
+            diagnostics.append({"id": r["id"], "split": r["split"], **diag})
+        x[i] = values
+        timing[r["split"]] += time.perf_counter() - begin
+        if (i + 1) % 5000 == 0:
+            print(f"{method} seed={seed}: features {i+1}/{len(records)}, {time.perf_counter()-started:.1f}s", flush=True)
+    assert np.isfinite(x).all()
+    y = np.asarray([r["y"] for r in records])
+    ids = np.asarray([r["id"] for r in records])
+    split = np.asarray([r["split"] for r in records])
+    train, val, test = split == "train", split == "val", split == "test"
+    model = DecisionTreeClassifier(max_depth=3, min_samples_leaf=50, class_weight="balanced", random_state=seed) if method == "rules" else ExtraTreesClassifier(n_estimators=200, min_samples_leaf=10, max_features=1.0, class_weight="balanced", random_state=seed, n_jobs=1)
+    with threadpool_limits(limits=1):
+        begin = time.perf_counter()
+        model.fit(x[train], y[train])
+        fit_seconds = time.perf_counter() - begin
+        begin = time.perf_counter()
+        val_scores = model.predict_proba(x[val])[:, 1]
+        validation_predict_seconds = time.perf_counter() - begin
+        threshold = threshold_at_fpr(y[val], val_scores)
+        begin = time.perf_counter()
+        test_scores = model.predict_proba(x[test])[:, 1]
+        predict_seconds = time.perf_counter() - begin
+    result = {"method": method, "seed": seed, "features": names, "feature_seconds": timing, "fit_seconds": fit_seconds, "validation_predict_seconds": validation_predict_seconds, "test_predict_seconds": predict_seconds, "test_total_seconds": timing["test"] + predict_seconds, "metrics": metrics(y[test], test_scores, threshold), "validation": metrics(y[val], val_scores, threshold), "start_rss_mib": start_rss / 2**20, "sampler": {"burn": burn, "samples": samples, "stride": stride} if diagnostics else None}
+    if method == "rules":
+        (destination / "rules.txt").write_text(export_text(model, feature_names=names), encoding="utf-8")
+    if diagnostics:
+        frame = pd.DataFrame(diagnostics)
+        frame.to_csv(destination / f"{method}-diagnostics.csv", index=False)
+        result["diagnostics"] = {"frozen": int(frame.frozen.sum()), "proposals": int(frame.proposals.sum()), "accepted": int(frame.accepted.sum()), "active_no_varying_targets": int(((~frame.frozen) & (frame.varying_targets == 0)).sum()), "mean_distinct_states_active": float(frame.loc[~frame.frozen, "distinct_states"].mean())}
+        frozen_by_id = {d["id"]: d["frozen"] for d in diagnostics}
+        active = np.asarray([not frozen_by_id[int(i)] for i in ids[test]])
+        result["metrics_active"] = metrics(y[test][active], test_scores[active], threshold)
+    pd.DataFrame({"id": ids[test], "y": y[test], "score": test_scores}).to_csv(destination / f"{method}-predictions.csv", index=False)
+    np.savez_compressed(destination / f"{method}-features.npz", x=x, y=y, ids=ids, split=split)
+    result["feature_importance"] = sorted(zip(names, map(float, model.feature_importances_)), key=lambda p: -p[1])
+    result["total_seconds"] = time.perf_counter() - started
+    result["peak_rss_mib"] = psutil.Process().memory_info().peak_wset / 2**20
+    result["versions"] = {"python": sys.version, "numpy": np.__version__, "networkx": nx.__version__, "scikit_learn": sklearn.__version__, "scipy": scipy.__version__, "psutil": psutil.__version__, "platform": platform.platform()}
+    (destination / f"{method}.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    print(json.dumps({"method": method, "seed": seed, "seconds": result["total_seconds"], "peak_mib": result["peak_rss_mib"], "metrics": result["metrics"], "diagnostics": result.get("diagnostics")}), flush=True)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--method", choices=["rules", "degree", "graph", "paper", "edge", "directed"], required=True)
+    parser.add_argument("--seed", type=int, default=131)
+    parser.add_argument("--burn", type=int, default=512)
+    parser.add_argument("--samples", type=int, default=32)
+    parser.add_argument("--stride", type=int, default=64)
+    parser.add_argument("--suffix", default="")
+    run(**vars(parser.parse_args()))
