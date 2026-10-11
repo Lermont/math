@@ -1,0 +1,14 @@
+{
+  "command": ".venv-kmedian125/Scripts/python.exe -m unittest kmedian125.scale.test_scale -v",
+  "exit_code": 0,
+  "tests_passed": 5,
+  "test_runtime_seconds": 0.012,
+  "checks": [
+    "float32 block distances equal exact integer distances, including duplicate coordinates",
+    "full cost equals independent scalar computation and rare labels survive permutation",
+    "native callable OneBatch equals identical sampled precomputed input",
+    "FasterPAM float32 reported loss equals full integer cost",
+    "hypergeometric omission probabilities match exhaustive enumeration"
+  ],
+  "record_type": "summary of captured prebenchmark test output; not a second execution"
+}

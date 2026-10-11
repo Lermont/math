@@ -1,0 +1,317 @@
+{
+  "source_count": 61,
+  "source_checks": [
+    {
+      "path": "references/kmedian125/threshold/README.md",
+      "sha256": "e5f516135b3fcae14335e937973d810f6fb3c956ba7ddbb50c66894b1bc99173"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/figures/survivors.tex",
+      "sha256": "fb3124d9b4a0a86367103e7cb6515d61a6e5629739443d1dee4a08a490a791c6"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/main.tex",
+      "sha256": "507b8c8174bb678a85970c688c31e65065d55b35844ae0591223978ab4821fde"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/references.bib",
+      "sha256": "c9eeb26358f5c4800bd2425aa43b6f3f47c8b51672d7ead24f8cada70cd4e534"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/certificates.tex",
+      "sha256": "16f916e6a2ccecb481a75e673d43c721953b991b7fe942c579480be0dba88f0a"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/derandomization.tex",
+      "sha256": "c7dd611ea248e3ec1350ac07deba42ab89245b0dd5c3716b6785d2957bd88ebf"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/inequality.tex",
+      "sha256": "010e3e97a1c41d0b4aa531c3030a0e5be92ef2e6b264adc5d34e24dd6a3539ab"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/introduction.tex",
+      "sha256": "102327d3b72b111c19528449b77357caf2ef7a7fd2d071c456eb162f7a592206"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/preliminaries.tex",
+      "sha256": "35fa2cbfcdf987f96d0aec581d8ed81e69c039ba43b7ec0da0a6d8957679810c"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/preparation.tex",
+      "sha256": "1a505a82baf1b17a467f3f2ecdab41a9fc4e5efacf06fabe4848f6f54e70e16a"
+    },
+    {
+      "path": "references/kmedian125/threshold/build/sections/rounding.tex",
+      "sha256": "760fb46b0d332e6b34f58a7adb2f836f68f8a84b47893e9df58fafc49035ebbd"
+    },
+    {
+      "path": "references/kmedian125/threshold/main.pdf",
+      "sha256": "c8176d1671beb83d3a459ff65e5c632d94364ec7e542930bf19fad0b75524d50"
+    },
+    {
+      "path": "references/kmedian125/recovery/README.md",
+      "sha256": "4f3417210dd1740f1d13a47462c6e152f7c5cde6c76ab633a18bb12b7127cf8e"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/figures/budget.tex",
+      "sha256": "02828b8922d1c219bea3a32a6bd868adef843c168b9b7874d44cdd35b5221ead"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/paper.tex",
+      "sha256": "1f5e55f7beac3e1f2d4289a02e24c88c0b0f210f4f22ace5f570896aaff5fb1f"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/preamble.tex",
+      "sha256": "0f0cb86a74da223d0765566e7702edef158829c37656b090e6700ba1d57792c4"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/references.bib",
+      "sha256": "3a3b66f7cac6dc3d012a0b2f96149e236a0319a8f39455ab5be3d2cd48dece69"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/assembly.tex",
+      "sha256": "08780157dd7f6e7efd6279cea5fd369699a897b8b2002cbd75a18ff2f986e9cb"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/completion.tex",
+      "sha256": "95ec40940650bb94490aa217d1f295691a407b93f51f781a53ab968372746f4b"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/imports.tex",
+      "sha256": "28916a8491fdb8738b8e513c4a61b6581d75f34a3d79924e7720141318a2bd83"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/introduction.tex",
+      "sha256": "eb0742895308ed0d6d0a281e7fc1feec0cb3e98824430e4903e406e6a8eadf52"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/local.tex",
+      "sha256": "c7204e271ae25138b812d1c546cefb9418d58655890c57d71d6b487e3910cad5"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/preliminaries.tex",
+      "sha256": "31ddac2885f3f2e375962515a66e4280133a5ea1137f0cad9924c5f0e0356802"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/refinement.tex",
+      "sha256": "1008e89c1260d3c34c5a0f0473aaa011eb6b38c24fb4ff5cec74664b74b9b943"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/sampling.tex",
+      "sha256": "7b1c9c030233c9f1d2b6833ab9756f056c29925a141e3265d442eacb049e12a6"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/strictness.tex",
+      "sha256": "42227019a578e8403b586416b64d042d217f3df9c8ac6c4cb8bb5ec43b272f47"
+    },
+    {
+      "path": "references/kmedian125/recovery/build/sections/surplus.tex",
+      "sha256": "aa56267df141ea9893b70352fee7a24c581b0c2084b7df4816887ab19abd7ad6"
+    },
+    {
+      "path": "references/kmedian125/recovery/paper.pdf",
+      "sha256": "823fdb284a7d3c0e3089869ba2da3d394db4f19b1c2ab56477ce6ae1b232614b"
+    },
+    {
+      "path": "references/kmedian125/math/lean/docs/125.md",
+      "sha256": "045cdf6a61cca1122b8ed8cc7d39b0229c1b4307d4cb2eb23fdf762339f855b7"
+    },
+    {
+      "path": "references/kmedian125/math/history.md",
+      "sha256": "41c2a2d470014b3628695c7aabf5fd0c93f6f687621fca172062f22b59ed6a1e"
+    },
+    {
+      "path": "references/kmedian125/math/README.md",
+      "sha256": "5e8878ee04866f52ec942852552b9c28db278f65691c7ab49a87c9e93a9199fd"
+    },
+    {
+      "path": "references/kmedian125/math/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "references/kmedian125/math/lean/ComparatorChallenges/MetricKMedian.lean",
+      "sha256": "52b0567c1c72fddfc813d86788fdd646a8f480687226dd776ec5d4550a6c1b3a"
+    },
+    {
+      "path": "references/kmedian125/math/lean/ComparatorChallenges/KMedianThreshold.lean",
+      "sha256": "13ce12ffdfd6261073c9ae9976335d67f0b168958864b52da73d03c9eac42314"
+    },
+    {
+      "path": "references/kmedian125/math/lean/ComparatorChallenges/KMedianRefinedRecovery.lean",
+      "sha256": "c2b3b927374907d3b4a915c9acce0d0ea9d1ed46ad327961697783c62f80ab94"
+    },
+    {
+      "path": "references/kmedian125/obpam/README.md",
+      "sha256": "f007078dc6cfc05c891b140e8cc1aa23e1be0f4652ebdb4ba49625996de0dd93"
+    },
+    {
+      "path": "references/kmedian125/obpam/configs/expe_large_scale.yml",
+      "sha256": "7887748c9cde59ced313057fcc2f88f3a4936c4ca626263a70719aeb35dfc115"
+    },
+    {
+      "path": "references/kmedian125/obpam/configs/expe_small_scale.yml",
+      "sha256": "ef3166e4b1ba1b2208e90dac43562263eb872c97ac36a039172489db714d2c44"
+    },
+    {
+      "path": "references/kmedian125/obpam/data_loaders.py",
+      "sha256": "e06ec77e8e56681018f8153d05310a753d0a1a41a5699cf99b5dc1ff9c2b19c1"
+    },
+    {
+      "path": "references/kmedian125/obpam/model_wrappers.py",
+      "sha256": "80ed5063ccb8aa73ba26e1891c1f3f489ef4e840e7414d876fc113ab420ac436"
+    },
+    {
+      "path": "references/kmedian125/obpam/models.py",
+      "sha256": "8903027e6bf0231fb1add71b47495cc6f712859ed76148afaf56960cec82fbd9"
+    },
+    {
+      "path": "references/kmedian125/obpam/onebatch.py",
+      "sha256": "b097efed249016903707964842f19df39fbf3baa5e19c80ff77fd3dbb85f9863"
+    },
+    {
+      "path": "references/kmedian125/obpam/pam.pyx",
+      "sha256": "a7ab9045fe0848ceeb7bb284e64083b332045a4bf47e3a62eb3c79cc3b42d4d7"
+    },
+    {
+      "path": "references/kmedian125/obpam/requirements.txt",
+      "sha256": "1fd1d74fd632b02427e3ff49823ef13aa88d6260303b5af85c1741312a94cf38"
+    },
+    {
+      "path": "references/kmedian125/obpam/run.py",
+      "sha256": "7ff036c5956c8f977d8765188d2d1aa0cd620a209c902dbf5c2f991561058e6f"
+    },
+    {
+      "path": "references/kmedian125/obpam/script.py",
+      "sha256": "63d14460bff299cc999766f5cf324a49766b41dd70694ceb92e3aadd641f5acf"
+    },
+    {
+      "path": "references/kmedian125/obpam/setup.py",
+      "sha256": "ea4748c1e7fa0a83d7ea763b58e21955cd7be192cc69622dfbee3a6fdf610cd6"
+    },
+    {
+      "path": "references/kmedian125/baselines/2008.05171v2.pdf",
+      "sha256": "9f54c36a4f74ea9d215117477766324152b21bc73114c8b3bee8ed5018307850"
+    },
+    {
+      "path": "references/kmedian125/baselines/2501.19285v1.pdf",
+      "sha256": "fcbfbf94bca7ff2ab1efb260d49df3bc9689ce7d4f3c8963b58e5467a371b5f5"
+    },
+    {
+      "path": "references/kmedian125/onebatch/README.md",
+      "sha256": "8905fabe6ea286552a9bed815e0efcc250899598147b7f6305fa86404771fc4a"
+    },
+    {
+      "path": "references/kmedian125/onebatch/LICENSE",
+      "sha256": "89d0aa5b70d234be26f16840976c3f3ad4ba3186a34c4ff6613547510e85c344"
+    },
+    {
+      "path": "references/kmedian125/onebatch/onebatch/onebatchpam.py",
+      "sha256": "bd6e275a429eaa8a225a6b90d05cdfc3ec58491f8e5cb362e43295190888a792"
+    },
+    {
+      "path": "references/kmedian125/onebatch/onebatch/pam.pyx",
+      "sha256": "51b595566f95ac9656d41ad459703204e7323f880e63649b430afb2f421b037a"
+    },
+    {
+      "path": "references/kmedian125/onebatch/pyproject.toml",
+      "sha256": "453394ac50b534d700b802395504ec834a3d3c075b97fc17558ffdcf4db76b38"
+    },
+    {
+      "path": "references/kmedian125/onebatch/setup.py",
+      "sha256": "c77d5cc80163f96871e767912ecd4ae48e878b502f264f184efd0fef7dd66ee7"
+    },
+    {
+      "path": "references/kmedian125/wheels/onebatch-0.1.0-cp311-cp311-win_amd64.whl",
+      "sha256": "7f76dd15394db8d3db40f94c314238404706f085f643495bd1848127bc92301c"
+    },
+    {
+      "path": "references/kmedian125/wheels/onebatch-0.1.0-pypi.json",
+      "sha256": "b5af07ef82dbe729754d0bdd4fa2e597f976274f7e980c0f80ed0fee7685abca"
+    },
+    {
+      "path": "references/kmedian125/wheels/kmedoids-0.5.5-cp311-none-win_amd64.whl",
+      "sha256": "828bb6f56617f691dd0e28ffd108f44fd24aa4bed30ade34addf575b10befab9"
+    },
+    {
+      "path": "references/kmedian125/wheels/kmedoids-0.5.5-pypi.json",
+      "sha256": "439abb3012f9647b33269cdd23590da4699b2ab5ef05dd6e4916b7993bb17ede"
+    },
+    {
+      "path": "references/kmedian125/datasets/seeds.zip",
+      "sha256": "5033bd71b24592fa70d9b3cc5be02332dc6d03d0b27e6655e6d553f39afab323"
+    },
+    {
+      "path": "references/kmedian125/datasets/seeds-source.html",
+      "sha256": "7798073b5fba7017288b37804c5516969185e692c2e710cff353638d1b147f68"
+    }
+  ],
+  "wheel_member_checks": [
+    {
+      "wheel": "kmedoids-0.5.5-cp311-none-win_amd64.whl",
+      "path": "kmedoids/__init__.py",
+      "sha256": "657ae5498aafff41e8ebc7161e4b3a33643428221ead25b4b0165b62d7361289"
+    },
+    {
+      "wheel": "kmedoids-0.5.5-cp311-none-win_amd64.whl",
+      "path": "kmedoids/kmedoids.cp311-win_amd64.pyd",
+      "sha256": "504fe75f716e741e429013afe5bebf4442b51f81d60fc2ef0967a3cb834e056c"
+    },
+    {
+      "wheel": "onebatch-0.1.0-cp311-cp311-win_amd64.whl",
+      "path": "onebatch/__init__.py",
+      "sha256": "28fe76ee1ce077839ed4f054ea1b069299e655dafb48f2491d279149078172bc"
+    },
+    {
+      "wheel": "onebatch-0.1.0-cp311-cp311-win_amd64.whl",
+      "path": "onebatch/onebatchpam.py",
+      "sha256": "9948fb8c2cc8ae86d828aa22a362da2b7ee9b17721d6dab4a5948a7fe8a28c95"
+    },
+    {
+      "wheel": "onebatch-0.1.0-cp311-cp311-win_amd64.whl",
+      "path": "onebatch/pam.cp311-win_amd64.pyd",
+      "sha256": "d1b8c70b1ba7ea56f14a61bff12584e135cef564fb0f0022d66384faaa21ff5c"
+    },
+    {
+      "wheel": "onebatch-0.1.0-cp311-cp311-win_amd64.whl",
+      "path": "onebatch/pam.pyx",
+      "sha256": "3b2e2b9c1b6ae1f7c3850140a10d11abb54074e4f83a81f72b376953c4101de9"
+    }
+  ],
+  "frozen_inputs_unchanged": [
+    "__init__.py",
+    "config.json",
+    "data.py",
+    "feasibility.py",
+    "fetch_sources.py",
+    "methods.py",
+    "PLAN.md",
+    "requirements.lock.txt",
+    "run_experiment.py",
+    "test_kmedian125.py",
+    "worker.py"
+  ],
+  "onebatch_github_vs_wheel_text_equal": true,
+  "onebatch_github_sha256": "bd6e275a429eaa8a225a6b90d05cdfc3ec58491f8e5cb362e43295190888a792",
+  "onebatch_installed_sha256": "9948fb8c2cc8ae86d828aa22a362da2b7ee9b17721d6dab4a5948a7fe8a28c95",
+  "onebatch_hash_difference": "CRLF/LF only; normalized text identical",
+  "highs_version": "1.8.0",
+  "package_license": {
+    "kmedoids": "GPL-3.0-or-later",
+    "onebatch": "BSD-3-Clause"
+  },
+  "current_code_sha256": {
+    "__init__.py": "d3b9b69510edd4b1fe7b08d9fbfeea382f8cd7c6fb2026198abb7b380370614f",
+    "certify.py": "eb3dff701bb52892569f3be730042cc0659c6357618294c25e25bb002b2cea0e",
+    "data.py": "0f3686d82548d03dd285b2ff5513597607863e430e484588f558e815242dde52",
+    "feasibility.py": "18b876e71595e03ec2e00a7736cf8576790759b7c026bc9660e846639ecbaa6a",
+    "fetch_sources.py": "aa056a2965339dd2c669b6e920bf5102a47032063e4731e534bdbb59e8aff2a3",
+    "methods.py": "903c9b3c88008c17382db48207aabcfb0fee338fa2d5c6000a5e02e9f8899b24",
+    "provenance.py": "11b410671242e323427c8dfd7c0a111104d43d6d454f4ba6925f3436bfbd63a7",
+    "run_experiment.py": "0f047d0d3d4cfa5199ed83cfc26c7bcd2a7be5c4892c23d6a31ce4efe24e3a0d",
+    "summarize.py": "72d0ab7fc9d695ad5f52f774bda75389ce638a9a82c0bc99b27775ea90844732",
+    "test_certificates.py": "31b61f49de044941c98a6b6e728fcdf500ccee3bc34ff69397a69da1b205bc9c",
+    "test_kmedian125.py": "edaf448a7996d4ea8cf3d1b9912479f67713f8381973a6cc95abd3444bc168bc",
+    "worker.py": "e76b9712817a937009d44d0ec6e260394c3d6e99e9b24e3b6cc2157a72f39224"
+  }
+}

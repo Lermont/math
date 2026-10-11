@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "small_n": 18,
+  "small_k": 3,
+  "small_data_seeds": [11, 23],
+  "medium_n": 240,
+  "medium_ks": [12, 24],
+  "medium_data_seed": 31,
+  "structures": ["compact", "unbalanced", "outliers", "graph"],
+  "real_ks": [10, 20],
+  "algorithm_seeds": [101, 202, 303],
+  "methods": ["greedy_swap", "fasterpam", "onebatch_auto", "onebatch64", "lp_dr16_swap"],
+  "rounding_trials": 16,
+  "rounding_denominator": 1000000,
+  "max_swaps": 100,
+  "max_iter": 100,
+  "solver_seconds": 30,
+  "process_seconds": 60,
+  "process_rss_limit_bytes": 1073741824,
+  "suite_seconds": 1200,
+  "epsilon_feasibility": ["0.5", "0.2", "0.1"]
+}
