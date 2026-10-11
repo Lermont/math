@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-10-11T19:15:07.535793+00:00",
+  "plan_sha256": "b9d04d9c7d9e6169b88c17f2faf40295d6cba734b7eb706498a5fd5bb79f94e2",
+  "config_sha256": "438fc30843265ac1eee1e6efecf5835e24a6a8f3f8cab5100147fa2bef5f4753",
+  "config": {
+    "seeds": [
+      32501,
+      32502
+    ],
+    "small_cases": [
+      [
+        "symmetric_ring",
+        64
+      ],
+      [
+        "normal_cycle",
+        128
+      ],
+      [
+        "directed_regular",
+        128
+      ],
+      [
+        "directed_hub",
+        128
+      ],
+      [
+        "jordan",
+        64
+      ],
+      [
+        "grcar",
+        64
+      ]
+    ],
+    "large_cases": [
+      [
+        "directed_regular",
+        1024,
+        32501
+      ],
+      [
+        "directed_hub",
+        1024,
+        32502
+      ],
+      [
+        "jordan",
+        2048,
+        32501
+      ]
+    ],
+    "tolerances": [
+      "1e-4",
+      "1e-7",
+      "1e-10"
+    ],
+    "vectors": 8,
+    "repeats": 5,
+    "warmups": 1,
+    "order_seed": 3252026,
+    "collatz_iterations": 12,
+    "collatz_quantization": 1048576,
+    "approximation_budget": "0.9",
+    "reference_dps": 80,
+    "reference_check_dps": 110,
+    "reference_tail": "1e-60",
+    "arnoldi_step": 4,
+    "arnoldi_max": 80,
+    "arnoldi_stop_factor": 0.1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_manifest_verified": true,
+  "downloaded_sources": 177,
+  "upstream_head_check": {
+    "checked_at_utc": "2026-10-11T19:17:32.360978+00:00",
+    "expected": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "observed": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "commit_url": "https://github.com/openai/math/commit/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "message": "Merge pull request #1 from openai/codex/update-10-7\n\nUpdate manuscripts and Lean formalizations"
+  },
+  "git_tree_was_truncated": true,
+  "explicit_primary_sources_downloaded": true,
+  "direct_solution_files_scanned": 42,
+  "placeholder_or_axiom_text_hits": [],
+  "comparator_challenges_have_intentional_sorry": true,
+  "lean_compiled": false,
+  "comparator_executed": false,
+  "status": "Inspected statements, scopes, selected solution sources and comparator configuration; no independent full-proof verification."
+}

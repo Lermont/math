@@ -1,0 +1,82 @@
+{
+  "new_old_degree_difference_histogram": {
+    "0": 41,
+    "1": 4
+  },
+  "degree_savings": [
+    {
+      "case": "directed_hub_n128_s32501",
+      "tol": "1e-4",
+      "new_degree": 66,
+      "old_degree": 67
+    },
+    {
+      "case": "directed_hub_n128_s32502",
+      "tol": "1e-4",
+      "new_degree": 66,
+      "old_degree": 67
+    },
+    {
+      "case": "directed_regular_n1024_s32501",
+      "tol": "1e-10",
+      "new_degree": 34,
+      "old_degree": 35
+    },
+    {
+      "case": "directed_hub_n1024_s32502",
+      "tol": "1e-10",
+      "new_degree": 361,
+      "old_degree": 362
+    }
+  ],
+  "nonnormal_old_degree_sum": 2210,
+  "nonnormal_new_degree_sum": 2206,
+  "nonnormal_spmv_saving_fraction": 0.0018099547511312218,
+  "fixed_polynomial_bound_reduction_fraction": 0.17157287525380982,
+  "comparisons_nonnormal_only": [
+    {
+      "competitor": "crouzeix_old",
+      "pairs": 33,
+      "single_wins_at_least_10pct": 15,
+      "batch_wins_at_least_10pct": 11,
+      "median_competitor_over_new_single": 1.0873105604422317,
+      "median_competitor_over_new_batch": 1.0264195812980905
+    },
+    {
+      "competitor": "norm_taylor",
+      "pairs": 33,
+      "single_wins_at_least_10pct": 11,
+      "batch_wins_at_least_10pct": 11,
+      "median_competitor_over_new_single": 0.801026128742574,
+      "median_competitor_over_new_batch": 0.9197423352101655
+    },
+    {
+      "competitor": "scipy",
+      "pairs": 33,
+      "single_wins_at_least_10pct": 2,
+      "batch_wins_at_least_10pct": 26,
+      "median_competitor_over_new_single": 0.3471111910150384,
+      "median_competitor_over_new_batch": 2.1540609704146214
+    },
+    {
+      "competitor": "scipy_cached",
+      "pairs": 33,
+      "single_wins_at_least_10pct": 2,
+      "batch_wins_at_least_10pct": 18,
+      "median_competitor_over_new_single": 0.340888343565739,
+      "median_competitor_over_new_batch": 1.1877004453539468
+    },
+    {
+      "competitor": "arnoldi",
+      "pairs": 33,
+      "single_wins_at_least_10pct": 11,
+      "batch_wins_at_least_10pct": 28,
+      "median_competitor_over_new_single": 0.6551161362068787,
+      "median_competitor_over_new_batch": 4.477859133911435
+    }
+  ],
+  "max_roundoff_first_vector": 3.993530872765407e-15,
+  "max_dense_reference_disagreement": 1.2167255982751028e-14,
+  "max_decimal_refinement_difference": 5.605583673881033e-76,
+  "all_targets_met": true
+}

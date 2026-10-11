@@ -1,0 +1,19 @@
+[
+  {
+    "path": "references/filter325/scipy-1.18.1/_expm_multiply.py",
+    "sha256": "265294cd3ecc5e197752b502c97d5c894a571efd30362d010228e9df38b70b82",
+    "origin": "installed wheel scipy==1.18.1",
+    "upstream_reference_url": "https://github.com/scipy/scipy/blob/v1.18.1/scipy/sparse/linalg/_expm_multiply.py"
+  },
+  {
+    "path": "references/filter325/scipy-1.18.1/_compressed.py",
+    "sha256": "9b960cf9e25068bc31fd5f4f07edb2b883a84714992172e9d50e36a62814ab0e",
+    "origin": "installed wheel scipy==1.18.1",
+    "upstream_reference_url": "https://github.com/scipy/scipy/blob/v1.18.1/scipy/sparse/_compressed.py"
+  },
+  {
+    "path": "references/filter325/scipy-1.18.1/LICENSE.txt",
+    "sha256": "f0f5c56b298ec9795df1199edc328a987242716d14a1bde6813112e22dc15f99",
+    "origin": "installed scipy wheel license"
+  }
+]
