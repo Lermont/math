@@ -1,0 +1,8 @@
+{
+  "prediction_ap_round_trip": true,
+  "feature_parity": true,
+  "core_feature_parity": true,
+  "no_cross_split_overlap": true,
+  "complete_background_crc_verified": true,
+  "sample_hash_match": true
+}

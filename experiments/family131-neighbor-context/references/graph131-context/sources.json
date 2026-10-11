@@ -1,0 +1,15 @@
+{
+  "dataset": "ellipticco/elliptic2-data-set",
+  "version": 1,
+  "license": "CC BY-NC-ND 4.0",
+  "background_url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic2-data-set/background_edges.csv?datasetVersionNumber=1",
+  "paper_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "prior_sources": "../graph131/sources.json",
+  "alternative_examined": {
+    "repository": "https://github.com/MITIBMxGraph/RevTrack",
+    "commit": "f2111c8a1bafd84ebaa5a04e5caca8f1f0ed7ac0",
+    "file": "data/elliptic/raw/data_df.pkl",
+    "sha256": "2baa712b67382aeade8d5e72dd07ddbffb1029b359a048c80a2300a3e3abc220",
+    "excluded_reason": "Transformed sender/receiver pairs, not original one-hop transaction adjacency; never used by the experiment pipeline."
+  }
+}

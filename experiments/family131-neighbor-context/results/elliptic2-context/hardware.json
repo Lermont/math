@@ -1,0 +1,11 @@
+{
+  "cpu": "Intel Core Ultra 7 255H",
+  "logical_processors": 16,
+  "ram_bytes": 33752997888,
+  "source": "local Win32_Processor and psutil",
+  "affinity_pinned": false,
+  "cpu_frequency_locked": false,
+  "current_logical_processors": 16,
+  "current_ram_bytes": 33752997888,
+  "platform": "Windows-11-10.0.26300-SP0"
+}

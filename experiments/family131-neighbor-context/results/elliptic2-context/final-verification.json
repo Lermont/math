@@ -1,0 +1,45 @@
+{
+  "verified_utc": "2026-10-11T15:52:03.673338+00:00",
+  "all_18_measurements_complete": true,
+  "all_runtime_model_and_feature_sources_unchanged": true,
+  "prior_sample_unchanged": true,
+  "checks": {
+    "prediction_ap_round_trip": true,
+    "feature_parity": true,
+    "core_feature_parity": true,
+    "no_cross_split_overlap": true,
+    "complete_background_crc_verified": true,
+    "sample_hash_match": true
+  },
+  "unit_tests_passed": 11,
+  "reporting_source_change": {
+    "graph131/context_report.py": {
+      "initial": "d811144206d83985f26caf4eff13f0d14c3b8bc9aefb30e085b8d1abb249612e",
+      "current": "e34f9c600e38bb33c77a13e2240a6af13511127e6df3665711942422632c8172"
+    }
+  },
+  "reporting_change_reason": "Explicit round-trip CSV parsing preserves adjacent float scores and reproduces worker AP exactly; chart caption clarified. No models, features, predictions or timing measurements changed. Original reporting source snapshot retained.",
+  "paired_delta_matches_mean_ap": true,
+  "files": {
+    "acquisition-progress.json": "fac05ebf3d9339a9eed129d7f03ee4fac09af211f13f51f6ddc16f9e597b8de8",
+    "acquisition.json": "13b2869e5f98f1cebe26558f4bf2334e47d579fb2fde2d914b17ce29580f56bc",
+    "checks.json": "0783000e2604ba8222cef9f47aa8c244d1a113685a4b691ab0298ff6e1661bb6",
+    "comparison.png": "f9acfe82a9d3b92e7b230628adeb216ceb57d14e982201ed2b72b4696e6b4eab",
+    "comparison.svg": "b856490ad31dc15693cebf029089ee15b7ccbc4b7f72f9fb700ab5be43cd3cec",
+    "contexts.csv": "9451eb9dc7702deb40e88f3aa558e7ecc32f09b4c2e6e250c863a9919dba5fc5",
+    "data_audit.json": "143d4dbc57ffbae1afaaf96990f80e56c380d5748b33afa8582fcb0ae391bdda",
+    "hardware.json": "1221aac97876af74c1597128879758703c06a880fab9d0430e17c8e8eab6349c",
+    "prespecified-plan.md": "9d1f716df3303078b5c9d3fd94ab3ab583a9d0b8cb384daaf5a7f2706340329e",
+    "report.html": "d8c7443211036baa48b927271f141dd3404625f5860ffa88b1c641e3c2106d3f",
+    "report.md": "75d47d07680a8749d52e8a364b8ce7207f9aa35da4328ed15b5e2227c7502ccf",
+    "requirements-lock.txt": "e5597e91bb540e1ce7326048f70693eb3e4698b162f20218699b00be737df22d",
+    "run-metadata.json": "aab0f7887cb73c7a0ae26706e4b2504ef20d168a2a63600045e0f348df472f85",
+    "sample.json": "c2bf524ea403a753fbd9db2ee3d6d267c0370d976d8fa5ab567ad6d3779a89a2",
+    "selected-nodes.csv": "2c5a29556775348743f6b89ecc457ae25f21f91869670c22796b3e3d29c09037",
+    "selection.csv": "a3352639f63930eaa9832ddc89813cc31ad8948b73d646c541e10d83d50531f9",
+    "selection.json": "9d138f533077f6552f4ae8b56420499d0b9b13a02733ceb09772aca5ee29b610",
+    "summary.csv": "5b00d20e31298f029457d95bee96a0b2df7d1e01ea90c729323f11c7e2fb8800",
+    "test-log.txt": "dbe774ed9e639bf31b668fa5774c52114a04d74bb0923cd34838143b17b4e9a8",
+    "uncertainty.json": "3c2f92f69926ab38d2e4336f6b0a2f5ed2b7fa29ef17b72eac2aa809ce41240f"
+  }
+}
