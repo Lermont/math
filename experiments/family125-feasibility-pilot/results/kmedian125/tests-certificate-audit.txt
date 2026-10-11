@@ -1,0 +1,7 @@
+test_arbitrary_prices_are_valid_not_only_solver_prices (kmedian125.test_certificates.ExactBoundTests.test_arbitrary_prices_are_valid_not_only_solver_prices) ... ok
+test_tampered_certificate_is_rejected (kmedian125.test_certificates.ExactBoundTests.test_tampered_certificate_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.013s
+
+OK

@@ -1,0 +1,20 @@
+test_all_triangle_inequalities_and_independent_evaluator (kmedian125.test_kmedian125.MetricTests.test_all_triangle_inequalities_and_independent_evaluator) ... ok
+test_reject_nonmetric_and_bad_medoid_ids (kmedian125.test_kmedian125.MetricTests.test_reject_nonmetric_and_bad_medoid_ids) ... ok
+test_distinct_candidates_model (kmedian125.test_kmedian125.OptimizationTests.test_distinct_candidates_model) ... ok
+test_library_baselines_objective_and_feasibility (kmedian125.test_kmedian125.OptimizationTests.test_library_baselines_objective_and_feasibility) ... ok
+test_milp_and_dual_against_proven_optima (kmedian125.test_kmedian125.OptimizationTests.test_milp_and_dual_against_proven_optima) ... ok
+test_swap_local_optimum_and_edge_budgets (kmedian125.test_kmedian125.OptimizationTests.test_swap_local_optimum_and_edge_budgets) ... ok
+test_complete_exact_moments (kmedian125.test_kmedian125.RoundingTests.test_complete_exact_moments) ... ok
+test_sampled_budget_and_quantization (kmedian125.test_kmedian125.RoundingTests.test_sampled_budget_and_quantization) ... ok
+test_arbitrary_prices_are_valid_not_only_solver_prices (kmedian125.test_certificates.ExactBoundTests.test_arbitrary_prices_are_valid_not_only_solver_prices) ... ok
+test_tampered_certificate_is_rejected (kmedian125.test_certificates.ExactBoundTests.test_tampered_certificate_is_rejected) ... ok
+test_distances_exact_and_bounded_blocks (kmedian125.scale.test_scale.ScaleChecks.test_distances_exact_and_bounded_blocks) ... ok
+test_fasterpam_float32_loss_is_full_integer_cost (kmedian125.scale.test_scale.ScaleChecks.test_fasterpam_float32_loss_is_full_integer_cost) ... ok
+test_native_onebatch_callable_matches_precomputed (kmedian125.scale.test_scale.ScaleChecks.test_native_onebatch_callable_matches_precomputed) ... ok
+test_probability_against_enumeration (kmedian125.scale.test_scale.ScaleChecks.test_probability_against_enumeration) ... ok
+test_score_against_scalar_and_permuted_ids (kmedian125.scale.test_scale.ScaleChecks.test_score_against_scalar_and_permuted_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.230s
+
+OK
