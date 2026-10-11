@@ -1,0 +1,8 @@
+{
+  "cpu": "Intel Core Ultra 7 255H",
+  "logical_processors": 16,
+  "ram_bytes": 33752997888,
+  "source": "local Win32_Processor and psutil",
+  "affinity_pinned": false,
+  "cpu_frequency_locked": false
+}

@@ -1,0 +1,18 @@
+{
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic2-data-set/background_edges.csv?datasetVersionNumber=1",
+  "version": 1,
+  "archive_bytes": 24478974927,
+  "compressed_entry_bytes": 24478974673,
+  "uncompressed_bytes": 82877432755,
+  "crc32": "82282fb9",
+  "crc_verified": true,
+  "source_csv_sha256": "3871afda709936eecaf7c39381be5120098db0e12392c4e7c9c1cb3c263f46a7",
+  "rows_scanned": 196215606,
+  "incident_rows_retained": 95539,
+  "selected_core_nodes": 21581,
+  "elapsed_seconds": 1605.6580024999566,
+  "peak_rss_mib": 543.1796875,
+  "retained_sha256": "1dc34799859d3261cd899646479b6072468f621481a939022f8782eb4bc621a0",
+  "selection_sha256": "9d138f533077f6552f4ae8b56420499d0b9b13a02733ceb09772aca5ee29b610",
+  "plan_sha256": "9d1f716df3303078b5c9d3fd94ab3ab583a9d0b8cb384daaf5a7f2706340329e"
+}

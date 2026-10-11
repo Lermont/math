@@ -1,0 +1,55 @@
+{
+  "accessed_utc": "2026-10-11T14:29:57.115341+00:00",
+  "dataset": "ellipticco/elliptic2-data-set",
+  "version": 1,
+  "license": "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+  "paper_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "data_scope": "Labeled subgraphs only; excludes both background CSVs",
+  "files": [
+    {
+      "name": "connected_components.csv",
+      "bytes": 1610070,
+      "sha256": "79511c49f76110d0feae7feda7e85279bc442efe31f5e7a9f53b2caf0019062b",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic2-data-set/connected_components.csv?datasetVersionNumber=1"
+    },
+    {
+      "name": "nodes.csv",
+      "bytes": 7470115,
+      "sha256": "c39fe3ac90da31b0684ec2c55d52225aa41a8fa1edccff8aff5ae1fd8817de18",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic2-data-set/nodes.csv?datasetVersionNumber=1"
+    },
+    {
+      "name": "edges.csv",
+      "bytes": 11356690,
+      "sha256": "cd5706110242ddb5505074f65287c45f1ff7dbfb52a0ef1c2e6a45da569e3ad0",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic2-data-set/edges.csv?datasetVersionNumber=1"
+    }
+  ],
+  "references": [
+    {
+      "path": "131.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/131.md",
+      "sha256": "95890a0433c375da400f600f581f1eb352416bc25f720c3483767022ce3fba4c"
+    },
+    {
+      "path": "introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/sections/introduction.tex",
+      "sha256": "7c4684d2d3b698bf2be17088c17575e72a4588faf667bd71e2743430911a106f"
+    },
+    {
+      "path": "setup.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/sections/setup.tex",
+      "sha256": "0395b99be0ea02763e92785bff613c1cbf1b65a5e6adfcf295dbe3a07004f8da"
+    },
+    {
+      "path": "mixing.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/sections/mixing.tex",
+      "sha256": "2b9d197997ca8126347c3ad93360243e55d6d0f761f1e02f8687023657b0fa55"
+    },
+    {
+      "path": "exact-sampling.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/sections/exact-sampling.tex",
+      "sha256": "369ea35e5d8b70815aa79710b08f972bc4d05a5590d20e8fa23fefb5c725c017"
+    }
+  ]
+}

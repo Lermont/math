@@ -1,0 +1,63 @@
+{
+  "draws": 1000,
+  "paired_mean_across_model_seeds": true,
+  "differences": {
+    "paper-graph": {
+      "delta_ap": 0.0007053683925115234,
+      "stratified_rows_ci95": [
+        -0.018504913559929566,
+        0.015266705292122422
+      ],
+      "context_components_ci95": [
+        -0.019444798432565635,
+        0.014949816043350867
+      ]
+    },
+    "paper-directed": {
+      "delta_ap": -0.03435374238338142,
+      "stratified_rows_ci95": [
+        -0.09421820962773253,
+        0.011860598697451676
+      ],
+      "context_components_ci95": [
+        -0.09708312507576611,
+        0.014660177816517829
+      ]
+    },
+    "paper-edge": {
+      "delta_ap": 0.004241844917010393,
+      "stratified_rows_ci95": [
+        -0.0037168305054179735,
+        0.011556751605584144
+      ],
+      "context_components_ci95": [
+        -0.0032765832647533946,
+        0.011606273477276996
+      ]
+    },
+    "graph-core": {
+      "delta_ap": 0.03481854626752249,
+      "stratified_rows_ci95": [
+        0.005074205544575947,
+        0.0883730419094872
+      ],
+      "context_components_ci95": [
+        0.00673035946809072,
+        0.09362812285447579
+      ]
+    },
+    "directed-core": {
+      "delta_ap": 0.06987765704341543,
+      "stratified_rows_ci95": [
+        0.011612631253345676,
+        0.1476652802733711
+      ],
+      "context_components_ci95": [
+        0.014833080126531962,
+        0.15071698558224259
+      ]
+    }
+  },
+  "test_dependence_groups": 2383,
+  "largest_test_group": 4
+}

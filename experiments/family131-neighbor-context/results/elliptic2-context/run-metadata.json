@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-11T15:38:24.716347+00:00",
+  "source_hashes": {
+    "graph131\\CONTEXT_PLAN.md": "9d1f716df3303078b5c9d3fd94ab3ab583a9d0b8cb384daaf5a7f2706340329e",
+    "graph131\\__init__.py": "26543dc23d5d74eea9c0c9e3aee4dd7961fee1b852301c76f16c7f9754c8fb0a",
+    "graph131\\context_data.py": "51cc748b45f3af339fbc3a1987df9913a7a0d5b65c6211a1e58ca80d525417f7",
+    "graph131\\context_download.py": "c712212b96af01f757517095b858b594ee5d7d5ab3018d6907c6e67af759a26e",
+    "graph131\\context_features.py": "5382b9bb7cb7d463e24090465055403df09b31ec2e8639c1ac907362131304c0",
+    "graph131\\context_report.py": "d811144206d83985f26caf4eff13f0d14c3b8bc9aefb30e085b8d1abb249612e",
+    "graph131\\context_run.py": "3d293c847b8ee86a481c1a0ff91a18898db615ac1f2aaa55c8823cddc598196c",
+    "graph131\\context_worker.py": "942f013e98051d11022663af3d6c8afbd9d0cad92c71df42660e40ffefa336c0",
+    "graph131\\data.py": "d7ba6ae2b2c934df35dd7cea7a09a7d1572795b73602f8acdd200d279ad3835c",
+    "graph131\\directed.py": "ecff7399a3db2916d08e08490b1c95ab07c7ce86278f79c9bc9c24991b20f5de",
+    "graph131\\download.py": "e97508e1f69d32d8a280860776f925ecf04af56537967c7a004c31a575083d8b",
+    "graph131\\evaluate.py": "2fb231984c35cae81dfdeec8670b86db2afa7d1131a0f85f31b940dfea9ae3c1",
+    "graph131\\extra_runs.py": "9558b29212b875ad51fe292efe52446d9275743e9d778c710f143f5ee1c22f7f",
+    "graph131\\features.py": "1f589d885b89dfe2f9b3c8fc08e7c1b1fbd58ad89f3112db32c150a078b094e9",
+    "graph131\\report.py": "e2d4867937ee7e3624749003c7769bee23bdb02891bd4dd5e2f40ef252c64e04",
+    "graph131\\run.py": "b55148e59ee56023fa522ee24a059f01e5f2c771a83190094d828a9fc4965b1e",
+    "graph131\\switches.py": "8f8cce5be9890c37456e4488a00520878a680dfcaa3e9eb81537ed8be2d8a33c",
+    "graph131\\worker.py": "e333a4d89eb35548c38f3588c8a4f60f042f0d8f39022843db763d593820cdb4",
+    "tests\\test_graph131_context.py": "436567c8a1d26c4fed904508fd9844a749626398973e6a10033843f176eca045"
+  },
+  "sample_sha256": "c2bf524ea403a753fbd9db2ee3d6d267c0370d976d8fa5ab567ad6d3779a89a2",
+  "seeds": [
+    131,
+    132,
+    133
+  ],
+  "methods": [
+    "core",
+    "rules",
+    "graph",
+    "directed",
+    "paper",
+    "edge"
+  ],
+  "parallel_workers": 1,
+  "threads_per_worker": 1
+}

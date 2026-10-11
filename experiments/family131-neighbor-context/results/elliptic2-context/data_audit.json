@@ -1,0 +1,106 @@
+{
+  "shared_external_nodes_purged": 436,
+  "shared_transaction_ids_context_purged": 2792,
+  "candidate_incidences_to_other_annotated_cores_removed": 0,
+  "overlaps": {
+    "nodes": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "transactions": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  },
+  "cap_external_nodes": 32,
+  "count": 6000,
+  "sample_sha256": "c2bf524ea403a753fbd9db2ee3d6d267c0370d976d8fa5ab567ad6d3779a89a2",
+  "original_core_edge_rows": 17936,
+  "original_core_rows_missing_in_background": 0,
+  "selected_core_nodes_absent_in_background_edges": 0,
+  "split": {
+    "train": {
+      "count": 2400,
+      "suspicious": 54
+    },
+    "val": {
+      "count": 1200,
+      "suspicious": 27
+    },
+    "test": {
+      "count": 2400,
+      "suspicious": 55
+    }
+  },
+  "with_external_context": 3490,
+  "capped_subgraphs": 30,
+  "selected_context_self_loops": 0,
+  "rows_collapsed_by_simple_projection": 3550,
+  "incident_exact_duplicate_rows": 0,
+  "node_statistics": {
+    "core_n": {
+      "count": 6000.0,
+      "mean": 3.5968333333333335,
+      "std": 2.688586007800838,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 50.0
+    },
+    "raw_neighbors": {
+      "count": 6000.0,
+      "mean": 5.314333333333333,
+      "std": 5.984688572106857,
+      "min": 2.0,
+      "25%": 2.75,
+      "50%": 4.0,
+      "75%": 6.0,
+      "max": 139.0
+    },
+    "eligible_neighbors": {
+      "count": 6000.0,
+      "mean": 2.362,
+      "std": 5.3084510555121565,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 131.0
+    },
+    "kept_neighbors": {
+      "count": 6000.0,
+      "mean": 2.268666666666667,
+      "std": 4.289120070681049,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 32.0
+    },
+    "n": {
+      "count": 6000.0,
+      "mean": 5.8655,
+      "std": 5.890290796806653,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 4.0,
+      "75%": 7.0,
+      "max": 68.0
+    },
+    "m": {
+      "count": 6000.0,
+      "mean": 5.036333333333333,
+      "std": 6.31954660824476,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 6.0,
+      "max": 94.0
+    }
+  },
+  "elapsed_seconds": 1.1496962999808602,
+  "peak_rss_mib": 316.3125
+}
