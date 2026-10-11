@@ -1,0 +1,16 @@
+test_bipartite_and_disconnected (test_p2p178.GraphTests.test_bipartite_and_disconnected) ... ok
+test_exact_paper_criterion_known_graphs (test_p2p178.GraphTests.test_exact_paper_criterion_known_graphs) ... ok
+test_lps_structure_and_bipartite_spectrum (test_p2p178.GraphTests.test_lps_structure_and_bipartite_spectrum) ... ok
+test_regular_simple_and_shared_first_candidate (test_p2p178.GraphTests.test_regular_simple_and_shared_first_candidate) ... ok
+test_sparse_extremes_against_dense_oracle (test_p2p178.GraphTests.test_sparse_extremes_against_dense_oracle) ... ok
+test_failure_traces_nested_and_reproducible (test_p2p178.SimulatorTests.test_failure_traces_nested_and_reproducible) ... ok
+test_fifo_contention_between_messages (test_p2p178.SimulatorTests.test_fifo_contention_between_messages) ... ok
+test_partition_null_threshold_and_failed_bytes (test_p2p178.SimulatorTests.test_partition_null_threshold_and_failed_bytes) ... ok
+test_shortest_path_oracle_zero_serialization (test_p2p178.SimulatorTests.test_shortest_path_oracle_zero_serialization) ... ok
+test_single_uplink_serialization (test_p2p178.SimulatorTests.test_single_uplink_serialization) ... ok
+test_traffic_conservation_connected_flooding (test_p2p178.SimulatorTests.test_traffic_conservation_connected_flooding) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.694s
+
+OK

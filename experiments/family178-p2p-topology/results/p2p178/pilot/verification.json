@@ -1,0 +1,324 @@
+{
+  "status": "PASS",
+  "jobs": 80,
+  "graphs": 83,
+  "scenarios": 480,
+  "messages": 3840,
+  "source_files": 42,
+  "identical_first_candidate_pairs": 25,
+  "distinct_shared_traces": 45,
+  "independent_spectral_oracles": [
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 1.3322676295501878e-14
+    },
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17801
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 2.398081733190338e-14
+    },
+    {
+      "job": [
+        2048,
+        8,
+        "circulant",
+        17802
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 1.6964207816272392e-13
+    },
+    {
+      "job": [
+        2048,
+        4,
+        "circulant",
+        17804
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 1.461053500406706e-13
+    },
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17803
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 2.6645352591003757e-15
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 3.552713678800501e-15
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17801
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 2.220446049250313e-15
+    },
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17802
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 3.552713678800501e-15
+    },
+    {
+      "job": [
+        512,
+        8,
+        "random_regular",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 3.108624468950438e-14
+    },
+    {
+      "job": [
+        2048,
+        4,
+        "circulant",
+        17803
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.1958437552457326e-14
+    },
+    {
+      "job": [
+        2048,
+        8,
+        "circulant",
+        17805
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.1514348342607263e-14
+    },
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17804
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 3.9968028886505635e-14
+    },
+    {
+      "job": [
+        512,
+        4,
+        "spectral_rejection",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 1.0658141036401503e-14
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17804
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 9.769962616701378e-15
+    },
+    {
+      "job": [
+        512,
+        4,
+        "random_regular",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 3.9968028886505635e-15
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17805
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 6.661338147750939e-15
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17802
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 3.419486915845482e-14
+    },
+    {
+      "job": [
+        2184,
+        6,
+        "circulant",
+        17804
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 2.220446049250313e-14
+    },
+    {
+      "job": [
+        2184,
+        6,
+        "circulant",
+        17802
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 4.440892098500626e-15
+    },
+    {
+      "job": [
+        2048,
+        8,
+        "circulant",
+        17804
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.861977570020827e-14
+    },
+    {
+      "job": [
+        2048,
+        8,
+        "circulant",
+        17803
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.950795411990839e-14
+    },
+    {
+      "job": [
+        2048,
+        4,
+        "circulant",
+        17801
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 1.5143442055887135e-13
+    },
+    {
+      "job": [
+        2048,
+        4,
+        "circulant",
+        17802
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 8.659739592076221e-14
+    },
+    {
+      "job": [
+        2184,
+        6,
+        "circulant",
+        17805
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 3.552713678800501e-14
+    },
+    {
+      "job": [
+        2184,
+        6,
+        "circulant",
+        17803
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 0.0
+    },
+    {
+      "job": [
+        2048,
+        8,
+        "circulant",
+        17801
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.062616992290714e-14
+    },
+    {
+      "job": [
+        512,
+        8,
+        "spectral_rejection",
+        17801
+      ],
+      "oracle": "full dense eigvalsh",
+      "difference": 3.108624468950438e-14
+    },
+    {
+      "job": [
+        512,
+        8,
+        "circulant",
+        17805
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 5.329070518200751e-15
+    },
+    {
+      "job": [
+        2048,
+        4,
+        "circulant",
+        17805
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 9.50350909079134e-14
+    },
+    {
+      "job": [
+        2184,
+        6,
+        "circulant",
+        17801
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 8.43769498715119e-14
+    },
+    {
+      "job": [
+        512,
+        4,
+        "circulant",
+        17803
+      ],
+      "oracle": "analytic circulant spectrum",
+      "difference": 1.6431300764452317e-14
+    }
+  ],
+  "max_oracle_error": 1.6964207816272392e-13,
+  "claim": "artifact consistency, topology/traffic invariants and numerical cross-checks; not formal certification"
+}

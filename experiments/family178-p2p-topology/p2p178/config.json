@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "date_local": "2026-10-11",
+  "cases": [{"n": 512, "d": 4}, {"n": 512, "d": 8}, {"n": 2048, "d": 4}, {"n": 2048, "d": 8}, {"n": 2184, "d": 6}],
+  "methods": ["random_regular", "circulant", "spectral_rejection"],
+  "extra_lps_case": {"n": 2184, "d": 6, "p": 5, "q": 13},
+  "seeds": [17801, 17802, 17803, 17804, 17805],
+  "max_candidates": 32,
+  "spectral_margin": 1e-7,
+  "eig_tol": 1e-10,
+  "residual_limit": 1e-8,
+  "messages": 8,
+  "payload_bytes": 16384,
+  "header_bytes": 64,
+  "interval_ms": 100,
+  "uplink_mbps": 10,
+  "latency_models": ["uniform", "heterogeneous"],
+  "failure_fractions": [0.0, 0.1, 0.3],
+  "worker_timeout_seconds": 180
+}

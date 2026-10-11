@@ -1,0 +1,298 @@
+{
+  "sources": [
+    {
+      "path": "api/math-main-20261011.json",
+      "url": "https://api.github.com/repos/openai/math/commits/main",
+      "sha256": "d96dd80d7df00470c29e70e28517b8a3989956923db6821bf81c363f9e5bdc51",
+      "bytes": 1091891,
+      "retrieved_utc": "2026-10-11T17:38:09.285001+00:00"
+    },
+    {
+      "path": "math/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/README.md",
+      "sha256": "5e8878ee04866f52ec942852552b9c28db278f65691c7ab49a87c9e93a9199fd",
+      "bytes": 4190,
+      "retrieved_utc": "2026-10-11T17:38:09.640540+00:00"
+    },
+    {
+      "path": "math/LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "retrieved_utc": "2026-10-11T17:38:10.027771+00:00"
+    },
+    {
+      "path": "math/history.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "sha256": "41c2a2d470014b3628695c7aabf5fd0c93f6f687621fca172062f22b59ed6a1e",
+      "bytes": 2281,
+      "retrieved_utc": "2026-10-11T17:38:10.365400+00:00"
+    },
+    {
+      "path": "math/CONTENTS.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "sha256": "cc7c0b8a1cdedd845a777e77cf682657308503daf8346c1349e06e9259d063c2",
+      "bytes": 638727,
+      "retrieved_utc": "2026-10-11T17:38:12.027431+00:00"
+    },
+    {
+      "path": "math/overview.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/overview.tex",
+      "sha256": "aa54c8e14b7647226264045ae846df7ce6803d2ded48aa3183195e45f9f91962",
+      "bytes": 321928,
+      "retrieved_utc": "2026-10-11T17:38:12.555851+00:00"
+    },
+    {
+      "path": "math/lean/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/README.md",
+      "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b",
+      "bytes": 650,
+      "retrieved_utc": "2026-10-11T17:38:12.935998+00:00"
+    },
+    {
+      "path": "math/lean/formalization.yaml",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/formalization.yaml",
+      "sha256": "5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+      "bytes": 79482,
+      "retrieved_utc": "2026-10-11T17:38:13.324427+00:00"
+    },
+    {
+      "path": "api/preprints__Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026.json",
+      "url": "https://api.github.com/repos/openai/math/contents/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "sha256": "00d8433c93e96242463cf5300cc115a00c9c5c37deb1fb5df03382a909d55d78",
+      "bytes": 4079,
+      "retrieved_utc": "2026-10-11T17:38:13.683086+00:00"
+    },
+    {
+      "path": "math/paper178/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/README.md",
+      "sha256": "570b5e92dc80ff64de02b98693cc3b848e2a2d5c8dd8faf37813da831085e768",
+      "bytes": 711,
+      "retrieved_utc": "2026-10-11T17:38:14.083049+00:00"
+    },
+    {
+      "path": "api/preprints__Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026__build.json",
+      "url": "https://api.github.com/repos/openai/math/contents/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "sha256": "b319304a072b238465b877f2912c02056451eb99391ce40457554a32d389415e",
+      "bytes": 5483,
+      "retrieved_utc": "2026-10-11T17:38:14.441285+00:00"
+    },
+    {
+      "path": "api/preprints__Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026__build__figures.json",
+      "url": "https://api.github.com/repos/openai/math/contents/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/figures?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "sha256": "65846fb868289a610de26696e7ceaf86caaa8c4f151e7dfebe8dd896cc07b332",
+      "bytes": 3087,
+      "retrieved_utc": "2026-10-11T17:38:14.813594+00:00"
+    },
+    {
+      "path": "math/paper178/build/figures/construction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/figures/construction.tex",
+      "sha256": "8e529910ce0444928ce139ccc6b0bea8f382b5e3991f431f66270ca6e724f073",
+      "bytes": 1344,
+      "retrieved_utc": "2026-10-11T17:38:15.212212+00:00"
+    },
+    {
+      "path": "math/paper178/build/figures/switch.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/figures/switch.tex",
+      "sha256": "b5643979adc57aad67aa3b7db8accdfd2ca041dd97aec6cf49b528442c3e0adf",
+      "bytes": 1204,
+      "retrieved_utc": "2026-10-11T17:38:15.598644+00:00"
+    },
+    {
+      "path": "math/paper178/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/main.tex",
+      "sha256": "702410594f9d898c4e9b3de9ac428d5f7a32d62980b7bc83c7aa2013da4b2903",
+      "bytes": 2498,
+      "retrieved_utc": "2026-10-11T17:38:15.968153+00:00"
+    },
+    {
+      "path": "math/paper178/build/references.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/references.tex",
+      "sha256": "38076bafa8bebb5af13be2496a991ed0434ff32b941767a7c28102ddcc5e6720",
+      "bytes": 9130,
+      "retrieved_utc": "2026-10-11T17:38:16.359222+00:00"
+    },
+    {
+      "path": "api/preprints__Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026__build__sections.json",
+      "url": "https://api.github.com/repos/openai/math/contents/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections?ref=fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "sha256": "a517b366ce4a425aae62c783b0a4046bef9420dcfef55f199ca62a0aa978af02",
+      "bytes": 13878,
+      "retrieved_utc": "2026-10-11T17:38:16.807940+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/accounts.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/accounts.tex",
+      "sha256": "062e3788617a1a0e08a697132c43ce50044a0d5ce6d7543f17a8c2b41a179432",
+      "bytes": 6973,
+      "retrieved_utc": "2026-10-11T17:38:17.187132+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/algorithm.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/algorithm.tex",
+      "sha256": "746a29c8e8a09be81f94def54b69515d2cc7158542802e793395071f5d9bfd41",
+      "bytes": 8114,
+      "retrieved_utc": "2026-10-11T17:38:17.576639+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/boundary.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/boundary.tex",
+      "sha256": "47ee0e953fac00b8fa0dc7906bde7be804342d34435db5efc892d2b1ccc31de3",
+      "bytes": 64739,
+      "retrieved_utc": "2026-10-11T17:38:18.042889+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/cleanup.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/cleanup.tex",
+      "sha256": "ec8a712aad5ed9007d762ebf491c00e862207e20771d59b611e5f38625a3f817",
+      "bytes": 40498,
+      "retrieved_utc": "2026-10-11T17:38:18.493542+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/early.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/early.tex",
+      "sha256": "8928edaaa0e10e65bbc443c11bac86263fb25f41e58785e403b66160acc6b1c4",
+      "bytes": 59404,
+      "retrieved_utc": "2026-10-11T17:38:19.011203+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/foundations.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/foundations.tex",
+      "sha256": "cc9e9568f8eb68a65a02617510e1a22b84d2e9146738db38e9210c25a9d14a96",
+      "bytes": 47425,
+      "retrieved_utc": "2026-10-11T17:38:19.489680+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/introduction.tex",
+      "sha256": "1ba28efd51ec881f8d8b8f5af8b0b17a44ea65ed5a72dc8e7778de24acc6a6e9",
+      "bytes": 15209,
+      "retrieved_utc": "2026-10-11T17:38:19.898295+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/repair.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/repair.tex",
+      "sha256": "d6a9bafdc51fa99469bea7b74f7faa8cb22a6b3e1160d9804edacbc230cd3af5",
+      "bytes": 35108,
+      "retrieved_utc": "2026-10-11T17:38:20.328453+00:00"
+    },
+    {
+      "path": "math/paper178/build/sections/setup.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/build/sections/setup.tex",
+      "sha256": "ac7a38b863819f3f375ac9b8335f2ca8759aa8c6c1590f282fa45de17688a40e",
+      "bytes": 8351,
+      "retrieved_utc": "2026-10-11T17:38:20.724555+00:00"
+    },
+    {
+      "path": "math/paper178/paper.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/paper.pdf",
+      "sha256": "6d8ea4bb85aae750e6d9e3101e197669ca9f3f5a5e551ad718a2fc9cb1abbd9e",
+      "bytes": 885562,
+      "retrieved_utc": "2026-10-11T17:38:21.939252+00:00"
+    },
+    {
+      "path": "lps-reference/README.md",
+      "url": "https://raw.githubusercontent.com/kalmarek/RamanujanGraphs.jl/0a7e36718c5b89dad247e40160726bf782fde804/README.md",
+      "sha256": "3e7d3f3ba3bbc5f3b0c04f8e264d2542bb44aa1ab4b44a694ae457be8e0784b9",
+      "bytes": 5300,
+      "retrieved_utc": "2026-10-11T17:42:53.947012+00:00"
+    },
+    {
+      "path": "lps-reference/Project.toml",
+      "url": "https://raw.githubusercontent.com/kalmarek/RamanujanGraphs.jl/0a7e36718c5b89dad247e40160726bf782fde804/Project.toml",
+      "sha256": "290b04e931ccb146b087c0af6130cce8caca2f40dbb1c82fb1298d38cc9ec569",
+      "bytes": 430,
+      "retrieved_utc": "2026-10-11T17:42:54.309159+00:00"
+    },
+    {
+      "path": "lps-reference/src/lps_generators.jl",
+      "url": "https://raw.githubusercontent.com/kalmarek/RamanujanGraphs.jl/0a7e36718c5b89dad247e40160726bf782fde804/src/lps_generators.jl",
+      "sha256": "611409bf1ee66f91682e774b304742a3ad482ca7b35fb4615bb5129f837ad492",
+      "bytes": 2914,
+      "retrieved_utc": "2026-10-11T17:42:54.700745+00:00"
+    },
+    {
+      "path": "lps-reference/src/cayley.jl",
+      "url": "https://raw.githubusercontent.com/kalmarek/RamanujanGraphs.jl/0a7e36718c5b89dad247e40160726bf782fde804/src/cayley.jl",
+      "sha256": "47895cb2d896c036f6f81d9bae544b151b83137ff148882f2224c5277f262be1",
+      "bytes": 3285,
+      "retrieved_utc": "2026-10-11T17:42:55.113570+00:00"
+    },
+    {
+      "path": "lps-reference/test/pgl_psl_lps.jl",
+      "url": "https://raw.githubusercontent.com/kalmarek/RamanujanGraphs.jl/0a7e36718c5b89dad247e40160726bf782fde804/test/pgl_psl_lps.jl",
+      "sha256": "0c5ee2d6210e8e3273fb0823a48fc01bf8a5e40fa0dfca42894f813a5097ab5e",
+      "bytes": 4033,
+      "retrieved_utc": "2026-10-11T17:42:55.489913+00:00"
+    },
+    {
+      "path": "api/libp2p-master-20261011.json",
+      "url": "https://api.github.com/repos/libp2p/specs/git/ref/heads/master",
+      "sha256": "396ef826a0eed379044d06c783d4e86a599ad509772e1a17cdca1ad5bb22864c",
+      "bytes": 335,
+      "retrieved_utc": "2026-10-11T17:42:55.931535+00:00"
+    },
+    {
+      "path": "gossipsub/README.md",
+      "url": "https://raw.githubusercontent.com/libp2p/specs/c750236de43cd8b246a824b377dfdb26bae686db/pubsub/gossipsub/README.md",
+      "sha256": "e647400367581f5fbf7dce8ec1e7f7ec9dda7fb4ac89a0d629d3112e1a1d2ca8",
+      "bytes": 2992,
+      "retrieved_utc": "2026-10-11T17:42:56.312443+00:00"
+    },
+    {
+      "path": "gossipsub/gossipsub-v1.0.md",
+      "url": "https://raw.githubusercontent.com/libp2p/specs/c750236de43cd8b246a824b377dfdb26bae686db/pubsub/gossipsub/gossipsub-v1.0.md",
+      "sha256": "2f5c771e02f646b3b31634cb84c9b745c353a00b1af1282169c8e28fe371688f",
+      "bytes": 24692,
+      "retrieved_utc": "2026-10-11T17:42:56.706733+00:00"
+    },
+    {
+      "path": "gossipsub/gossipsub-v1.1.md",
+      "url": "https://raw.githubusercontent.com/libp2p/specs/c750236de43cd8b246a824b377dfdb26bae686db/pubsub/gossipsub/gossipsub-v1.1.md",
+      "sha256": "a559b81069d55377998fb679d7e20c32d62131681a367a4128f7a1430f3760c4",
+      "bytes": 42394,
+      "retrieved_utc": "2026-10-11T17:42:57.138331+00:00"
+    },
+    {
+      "path": "gossipsub/gossipsub-v1.2.md",
+      "url": "https://raw.githubusercontent.com/libp2p/specs/c750236de43cd8b246a824b377dfdb26bae686db/pubsub/gossipsub/gossipsub-v1.2.md",
+      "sha256": "a090f6db6f260f43aa1297e61cc8155ea465f9a39a73233988ef7bd543d3cf85",
+      "bytes": 4830,
+      "retrieved_utc": "2026-10-11T17:42:57.521043+00:00"
+    },
+    {
+      "path": "networkx-random-regular.html",
+      "url": "https://networkx.org/documentation/stable/reference/generated/networkx.generators.random_graphs.random_regular_graph.html",
+      "sha256": "7817273baeff4471e6b9ff68774c6bc7c58d0730ad1d75ba8f0b5ee815e383b5",
+      "bytes": 48420,
+      "retrieved_utc": "2026-10-11T17:42:57.977275+00:00"
+    },
+    {
+      "path": "networkx-expanders-source.html",
+      "url": "https://networkx.org/documentation/stable/_modules/networkx/generators/expanders.html",
+      "sha256": "3467667e5ac67e398a7168eadf88c59f84e1e6cec9ab096bc63956bd12eca304",
+      "bytes": 67635,
+      "retrieved_utc": "2026-10-11T17:42:58.343642+00:00"
+    },
+    {
+      "path": "scipy-eigsh.html",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.eigsh.html",
+      "sha256": "945c08425eced60ed021760f5627a806fe81c0ba72b4fefae811fc07699971d0",
+      "bytes": 47581,
+      "retrieved_utc": "2026-10-11T17:42:59.106981+00:00"
+    },
+    {
+      "path": "lps-publisher.html",
+      "url": "https://link.springer.com/article/10.1007/BF02126799",
+      "sha256": "5e5a0991901ef5a0f59ffb62ae74bc90d000a5908bf6023d4ed414d1cef78483",
+      "bytes": 261716,
+      "retrieved_utc": "2026-10-11T17:43:00.684232+00:00"
+    },
+    {
+      "path": "external-critique-178.md",
+      "url": "https://gist.githubusercontent.com/Malt7635/4569b09c5ec295f0c1c4b294ee58fa0c/raw/cfca07b29fcc5c89ebedcb5145f07be61f0e7aae/flaw-report-openai-math-family-178.md",
+      "sha256": "d972db7102c216d60d12b0ed1f3548be47cac4c87abb96b6994a6e10b749e6ff",
+      "bytes": 4760,
+      "retrieved_utc": "2026-10-11T17:43:01.068830+00:00"
+    }
+  ]
+}
