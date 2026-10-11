@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-11T17:48:31.455588+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\projects\\math\\.venv-graph131\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "logical_cpus": 16,
+  "physical_cpus": 16,
+  "physical_ram_bytes": 33752997888,
+  "dependencies": {
+    "networkx": "3.7",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "psutil": "7.2.2"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "workers_parallel": 1,
+  "tests_returncode": 0,
+  "plan_sha256": "f461b0a7c5e370f724b89a931fc9327b7ac1b35415c01a0f273d696f9b271aac",
+  "finished_utc": "2026-10-11T17:51:24.786669+00:00",
+  "benchmark_wall_seconds": 173.20298910001293,
+  "jobs": 80,
+  "failed_jobs": 0
+}
