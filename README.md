@@ -1,6 +1,10 @@
-# Mathematical research and practical experiments
+# Practical benchmarks of openai/math: seven experiments
 
 This fork of [openai/math](https://github.com/openai/math) preserves the upstream mathematical collection and adds **seven independent practical experiments** under [`experiments/`](experiments/). They investigate applications and baselines associated with manuscript families 128, 131, 125, 178, and 325. The experiment reports and conclusions are contributions of this fork, separate from the upstream manuscripts and their authorship.
+
+The studies cover shortest-superstring storage, Elliptic2 graph anomaly features, k-median/PAM clustering, P2P broadcast topology, and matrix-exponential actions.
+
+[Research directory](experiments/README.md) · [How to cite](CITATION.md) · [Evidence and review status](experiments/RESEARCH_INTEGRITY.md) · [Machine-readable catalogue](experiments/index.json) · [LLM reading guide](llms.txt)
 
 ## Practical experiments
 
@@ -22,6 +26,12 @@ The table summarizes the completed measurements. Each experiment title links to 
 - **Storage and resources:** Storage totals include payload, index, and metadata. Reports distinguish packing, reading, feature extraction, algorithm time, complete process time, and measured memory. Timing comparisons belong to their own experiment; the two PAM studies use different measurement paths.
 - **Mathematical scope:** The reports distinguish paper-derived implementations, restricted certificates, and heuristics. Bounded tests and empirical improvements do not establish all claims of the underlying manuscripts. Source commits, hashes, assumptions, negative controls, and unsuccessful cases are recorded in the individual packages.
 - **Reproduction:** Start with the relevant **setup** guide above, then follow that package's commands, dependency versions, and data requirements. The packages include code, plans, selected measurements, test logs, and publication manifests. Raw Elliptic2 data and some large artifacts are excluded; the guides list omissions and explain which historical audits refer to the complete local archive. Dataset and third-party source licenses remain separate from the repository code license.
+
+### Citation and verification
+
+Use [CITATION.cff](CITATION.cff) for this fork's experiment collection and [fixed report citations](CITATION.md) for individual findings. Original upstream manuscripts require separate citations. No independent peer review is documented for the experiments; English publication materials were prepared with AI assistance.
+
+[Publication integrity checks](https://github.com/Lermont/math/actions/workflows/research-publication.yml) verify included file hashes and documentation links. Their status does not certify the mathematical theorems or independently reproduce the benchmarks.
 
 ---
 

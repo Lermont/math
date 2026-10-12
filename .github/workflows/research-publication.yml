@@ -1,0 +1,37 @@
+name: Research publication integrity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'CITATION*'
+      - 'llms.txt'
+      - 'experiments/**'
+      - 'tools/verify_research_publication.py'
+      - '.github/workflows/research-publication.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'CITATION*'
+      - 'llms.txt'
+      - 'experiments/**'
+      - 'tools/verify_research_publication.py'
+      - '.github/workflows/research-publication.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publication-integrity:
+    name: Verify published files and evidence links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check publication integrity and navigation
+        run: python3 tools/verify_research_publication.py

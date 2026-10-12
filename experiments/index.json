@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "title": "Seven practical experiments associated with openai/math",
+  "repository": "https://github.com/Lermont/math",
+  "scope": "Independent experiments under experiments/ only.",
+  "maintainer": {
+    "name": "Lermont",
+    "identity_type": "GitHub account",
+    "url": "https://github.com/Lermont"
+  },
+  "documentation_updated": "2026-10-12",
+  "evidence_snapshot": {
+    "commit": "60ed0f3d9dacd3a279008241328b7692dbb211b8",
+    "url": "https://github.com/Lermont/math/tree/60ed0f3d9dacd3a279008241328b7692dbb211b8"
+  },
+  "upstream_source": {
+    "repository": "https://github.com/openai/math",
+    "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
+  },
+  "benchmark_rerun_for_documentation_update": false,
+  "review_status": "No independent peer review is documented in this repository.",
+  "ai_assistance": "English reports, summaries, and publication documentation were prepared with AI assistance.",
+  "citation_guide": "CITATION.md",
+  "integrity_guide": "experiments/RESEARCH_INTEGRITY.md",
+  "experiments": [
+    {
+      "id": "family128-string-storage",
+      "number": 1,
+      "family": 128,
+      "title": "Shortest-superstring string storage: family 128 benchmark",
+      "report_title": "Evaluate family 128 shortest-superstring storage against indexed and compressed baselines",
+      "research_question": "Can overlapping byte strings share storage without sacrificing reads by original ID?",
+      "abstract": "A byte-preserving shortest-common-superstring prototype is compared with plain, deduplicated, prefix-coded, block-Zstd and whole-dataset-Zstd storage on 11 datasets. It preserves IDs, order, duplicates and empty strings. Overlapping fragments benefit from shared storage, but the method is not a general compression or packing-speed improvement.",
+      "findings": [
+        "For 128 overlapping binary fragments, the complete archive is 1,265 bytes, versus 8,728 for plain storage, 2,010 for block Zstd and 1,167 for whole-dataset Zstd.",
+        "64 of 66 archive attempts completed; both larger paper-construction cases reached explicit resource limits."
+      ],
+      "conclusion": "Useful overlap-specific storage tradeoff; no general compressor replacement.",
+      "limitations": "Packing cost, index overhead and input structure dominate practicality. Bounded oracle and round-trip tests are implementation evidence, not a proof of the full port.",
+      "keywords": [
+        "shortest common superstring",
+        "string storage",
+        "compression",
+        "random access",
+        "Zstd"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family128-string-storage/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family128-string-storage/README.md",
+      "guide_path": "experiments/family128-string-storage/PUBLICATION.md",
+      "manifest_path": "experiments/family128-string-storage/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family128-string-storage/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 9,
+      "report_sha256": "78e3bf98a5d703e55f1de8618a6c5c886ceb097e7495ac4c9b942b75c48372a5",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family128-string-storage/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family128-string-storage/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family128_string_storage",
+      "pull_request": "https://github.com/Lermont/math/pull/1",
+      "merged_at": "2026-10-11T21:38:49Z",
+      "evidence": [
+        {
+          "label": "Benchmark design",
+          "path": "experiments/family128-string-storage/RESEARCH_REPORT.md#experimental-design"
+        },
+        {
+          "label": "Measurements",
+          "path": "experiments/family128-string-storage/results/main/results.csv"
+        },
+        {
+          "label": "Recorded archive audit",
+          "path": "experiments/family128-string-storage/results/main/verification.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family128-string-storage/references/sources.json"
+        }
+      ],
+      "data_access": "Synthetic/catalogue data builders are included. Stored archives and input/trace caches are omitted; new runs regenerate them.",
+      "reported_numeric_tokens": [
+        "1,265",
+        "8,728",
+        "2,010",
+        "1,167"
+      ]
+    },
+    {
+      "id": "family131-isolated-subgraphs",
+      "number": 2,
+      "family": 131,
+      "title": "Elliptic2 isolated subgraphs: degree-preserving MCMC features",
+      "report_title": "Evaluate family 131 degree-preserving null features on isolated Elliptic2 subgraphs",
+      "research_question": "Do family 131 degree-conditioned graph features improve suspicious-label classification?",
+      "abstract": "The family 131 lazy switch kernel supplies structural residual features for a classifier on 20,000 isolated Elliptic2 subgraphs. Comparisons include ordinary NetworkX features, conventional switches, degree summaries and a directed control. The added features do not establish a convincing classification benefit on this representation.",
+      "findings": [
+        "Mean test average precision (AP) is 2.288% with family 131 features, versus 2.185% for NetworkX; test positive-label prevalence is 2.275%.",
+        "The paired AP gain is +0.103 percentage points, with a conditional 95% interval of [-0.092, +0.623]. Median full-run time rises from 27.43 to 46.94 seconds."
+      ],
+      "conclusion": "No convincing incremental AP benefit on isolated subgraphs.",
+      "limitations": "The uncertainty is conditional on a fixed split and fitted models. Finite-budget MCMC mixing is unverified, and these features are not calibrated fraud probabilities.",
+      "keywords": [
+        "Elliptic2",
+        "graph anomaly detection",
+        "degree-preserving MCMC",
+        "average precision",
+        "NetworkX"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family131-isolated-subgraphs/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family131-isolated-subgraphs/README.md",
+      "guide_path": "experiments/family131-isolated-subgraphs/PUBLICATION.md",
+      "manifest_path": "experiments/family131-isolated-subgraphs/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family131-isolated-subgraphs/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 7,
+      "report_sha256": "bd6164e678fa087bef307dd6b541bbcdfbff58f5e7b7553cad8deebe861ffa1b",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-isolated-subgraphs/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-isolated-subgraphs/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family131_isolated_subgraphs",
+      "pull_request": "https://github.com/Lermont/math/pull/2",
+      "merged_at": "2026-10-11T21:38:51Z",
+      "evidence": [
+        {
+          "label": "Experiment plan",
+          "path": "experiments/family131-isolated-subgraphs/graph131/PLAN.md"
+        },
+        {
+          "label": "Metrics",
+          "path": "experiments/family131-isolated-subgraphs/results/elliptic2/summary.csv"
+        },
+        {
+          "label": "Paired uncertainty",
+          "path": "experiments/family131-isolated-subgraphs/results/elliptic2/uncertainty.json"
+        },
+        {
+          "label": "Data audit",
+          "path": "experiments/family131-isolated-subgraphs/results/elliptic2/data_audit.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family131-isolated-subgraphs/references/graph131/sources.json"
+        }
+      ],
+      "data_access": "Raw Elliptic2 data, row-level IDs, graph samples, features and predictions are omitted. Local acquisition is required; dataset licensing is separate.",
+      "reported_numeric_tokens": [
+        "2.288",
+        "2.185",
+        "0.103",
+        "-0.092",
+        "+0.623",
+        "27.43",
+        "46.94"
+      ]
+    },
+    {
+      "id": "family131-neighbor-context",
+      "number": 3,
+      "family": 131,
+      "title": "Elliptic2 neighboring context: graph features and MCMC ablation",
+      "report_title": "Test whether one-hop Elliptic2 context changes the value of family 131 null features",
+      "research_question": "Does real transaction context help, and does family 131 sampling add anything beyond it?",
+      "abstract": "A separate sample of 6,000 previously unused Elliptic2 subgraphs adds split-isolated one-hop transaction context, a directed control and uncertainty estimates accounting for shared test context. Ordinary context features improve the measured result. Family 131 null features add no convincing incremental benefit.",
+      "findings": [
+        "On this new sample, mean AP increases from 2.52% for core-only graphs to 6.01% with ordinary context; directed context reaches 9.51%.",
+        "Context plus family 131 achieves 6.08% AP. Its +0.07-percentage-point gain over the context baseline has a context-component 95% interval of [-1.94, +1.49]."
+      ],
+      "conclusion": "Context helps on this split; incremental MCMC benefit remains unestablished.",
+      "limitations": "Comparisons are within the new fixed sample; they are not comparisons against the earlier isolated-study split. No temporal holdout or finite-run mixing guarantee is established.",
+      "keywords": [
+        "Elliptic2",
+        "transaction context",
+        "graph anomaly detection",
+        "MCMC ablation",
+        "average precision"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family131-neighbor-context/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family131-neighbor-context/README.md",
+      "guide_path": "experiments/family131-neighbor-context/PUBLICATION.md",
+      "manifest_path": "experiments/family131-neighbor-context/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family131-neighbor-context/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 11,
+      "report_sha256": "16d507419f11ffa61fe9783f359ebd4becd61bc3c324b84b65a976e48ab6e36b",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-neighbor-context/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-neighbor-context/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family131_neighbor_context",
+      "pull_request": "https://github.com/Lermont/math/pull/3",
+      "merged_at": "2026-10-11T21:38:53Z",
+      "evidence": [
+        {
+          "label": "Context plan",
+          "path": "experiments/family131-neighbor-context/graph131/CONTEXT_PLAN.md"
+        },
+        {
+          "label": "Metrics",
+          "path": "experiments/family131-neighbor-context/results/elliptic2-context/summary.csv"
+        },
+        {
+          "label": "Paired uncertainty",
+          "path": "experiments/family131-neighbor-context/results/elliptic2-context/uncertainty.json"
+        },
+        {
+          "label": "Recorded verification",
+          "path": "experiments/family131-neighbor-context/results/elliptic2-context/final-verification.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family131-neighbor-context/references/graph131-context/sources.json"
+        }
+      ],
+      "data_access": "Raw transaction data, IDs, edges, graph samples, feature matrices and predictions are omitted. The guide describes local acquisition and the approximately 24.5 GB compressed context scan.",
+      "reported_numeric_tokens": [
+        "2.52",
+        "6.01",
+        "9.51",
+        "6.08",
+        "-1.94",
+        "+1.49"
+      ]
+    },
+    {
+      "id": "family125-feasibility-pilot",
+      "number": 4,
+      "family": 125,
+      "title": "Metric k-median: feasibility audit and LP rounding pilot",
+      "report_title": "Audit family 125 feasibility and benchmark an explicitly heuristic LP rounding pipeline",
+      "research_question": "Can the published construction be instantiated cheaply, and what does a separate LP heuristic achieve?",
+      "abstract": "A source audit examines the literal preparation recipe for family 125. A distinct heuristic, LP-DR16-swap, combines assignment LP, dependent rounding and local swaps in a 380-run pilot. Exact small-instance solutions and rational lower bounds help assess quality separately from solver success flags.",
+      "findings": [
+        "Across ten medium/real tasks, the mean dataset-median gap to a certified lower bound is 0.136% for LP-DR16-swap versus 0.451% for FasterPAM.",
+        "Median fresh algorithm times are 906.35 ms for LP-DR16-swap and 2.32 ms for FasterPAM; the complete-process comparison is much closer.",
+        "At epsilon = 0.1, the literal sufficient preparation recipe implies Delta >= 6.08522 x 10^28."
+      ],
+      "conclusion": "A costly heuristic quality check, with no per-instance dominance or evaluation of the full construction.",
+      "limitations": "The full family 125 construction is not implemented. Its approximation guarantee does not transfer to LP-DR16-swap. Gaps to lower bounds are upper bounds on relative suboptimality, not necessarily exact optimality gaps.",
+      "keywords": [
+        "metric k-median",
+        "k-medoids",
+        "linear programming",
+        "dependent rounding",
+        "FasterPAM"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family125-feasibility-pilot/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family125-feasibility-pilot/README.md",
+      "guide_path": "experiments/family125-feasibility-pilot/PUBLICATION.md",
+      "manifest_path": "experiments/family125-feasibility-pilot/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family125-feasibility-pilot/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 10,
+      "report_sha256": "79c78e308dfb9a0a1c765d610d60b2221ae862cb67bf9ac33f81137fc970b943",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-feasibility-pilot/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-feasibility-pilot/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family125_feasibility_pilot",
+      "pull_request": "https://github.com/Lermont/math/pull/4",
+      "merged_at": "2026-10-11T21:38:56Z",
+      "evidence": [
+        {
+          "label": "Experiment plan",
+          "path": "experiments/family125-feasibility-pilot/kmedian125/PLAN.md"
+        },
+        {
+          "label": "Feasibility calculation",
+          "path": "experiments/family125-feasibility-pilot/kmedian125/FEASIBILITY.md"
+        },
+        {
+          "label": "Result tables",
+          "path": "experiments/family125-feasibility-pilot/results/kmedian125/pilot-20261011-v1/TABLES.md"
+        },
+        {
+          "label": "Recorded verification",
+          "path": "experiments/family125-feasibility-pilot/results/kmedian125/pilot-20261011-v1/verification.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family125-feasibility-pilot/kmedian125/SOURCES.md"
+        }
+      ],
+      "data_access": "Papers, external snapshots, wheels, UCI Seeds input and some worker/cache files are omitted. Raw JSONL, tables and audit records are included; the guide distinguishes restoration from full archived-run verification.",
+      "reported_numeric_tokens": [
+        "0.136",
+        "0.451",
+        "906.35",
+        "2.32",
+        "6.08522"
+      ]
+    },
+    {
+      "id": "family125-pam-scale",
+      "number": 5,
+      "family": 125,
+      "title": "OneBatchPAM versus FasterPAM: scaling and rare-client coverage",
+      "report_title": "Measure OneBatchPAM scaling and rare-client failures against FasterPAM",
+      "research_question": "When does client sampling save resources, and what quality is lost on rare remote groups?",
+      "abstract": "This follow-up benchmarks packaged FasterPAM and OneBatchPAM in 576 isolated runs over 42 synthetic datasets with 1,000 to 10,000 clients. It measures complete-client cost and rare-group coverage separately from the sampled objective. The full family 125 approximation algorithm is outside the implementation.",
+      "findings": [
+        "At N = 10,000 and k = 20, auto OneBatchPAM is 36.69x faster for distance construction plus fitting and 4.75x faster for the complete process. Peak memory is 147.9 versus 486.9 MiB.",
+        "Median full-client cost differences from the same-dataset FasterPAM baseline are +0.28% for balanced data, +183.61% for rare triplets and +93.52% for rare singletons.",
+        "The first tested size with at least 10% savings in both algorithm time and peak memory is N = 3,000."
+      ],
+      "conclusion": "Substantial resource savings can come with severe rare-client failures.",
+      "limitations": "These are synthetic stress cases and heuristic-to-heuristic comparisons, not gaps to a certified optimum. Larger batches improve coverage, but full coverage at a full batch retains full-matrix memory.",
+      "keywords": [
+        "OneBatchPAM",
+        "FasterPAM",
+        "k-medoids",
+        "rare-client coverage",
+        "clustering benchmarks"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family125-pam-scale/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family125-pam-scale/README.md",
+      "guide_path": "experiments/family125-pam-scale/PUBLICATION.md",
+      "manifest_path": "experiments/family125-pam-scale/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family125-pam-scale/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 5,
+      "report_sha256": "3b618bb861a5069b4080318102c0638b3226f9990fc9d00e5cb1413a5d6d5b7c",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-pam-scale/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-pam-scale/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family125_pam_scale",
+      "pull_request": "https://github.com/Lermont/math/pull/5",
+      "merged_at": "2026-10-11T21:38:58Z",
+      "evidence": [
+        {
+          "label": "Scale plan",
+          "path": "experiments/family125-pam-scale/kmedian125/scale/PLAN.md"
+        },
+        {
+          "label": "Result tables",
+          "path": "experiments/family125-pam-scale/results/kmedian125/scale-20261011-v2/TABLES.md"
+        },
+        {
+          "label": "Full measurements",
+          "path": "experiments/family125-pam-scale/results/kmedian125/scale-20261011-v2/measurements.csv"
+        },
+        {
+          "label": "Recorded verification",
+          "path": "experiments/family125-pam-scale/results/kmedian125/scale-20261011-v2/verification.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family125-pam-scale/kmedian125/SOURCES.md"
+        }
+      ],
+      "data_access": "Synthetic builders, measurements and aggregate evidence are included. Some raw worker/cache artifacts and reference downloads are omitted; follow the guide for restoration and new runs.",
+      "reported_numeric_tokens": [
+        "36.69",
+        "4.75",
+        "147.9",
+        "486.9",
+        "+0.28%",
+        "+183.61%",
+        "+93.52%"
+      ]
+    },
+    {
+      "id": "family178-p2p-topology",
+      "number": 6,
+      "family": 178,
+      "title": "P2P broadcast topology: random regular, spectral selection and LPS graphs",
+      "report_title": "Benchmark spectral topology selection for P2P broadcast and audit family 178 feasibility",
+      "research_question": "Does spectral topology selection improve broadcast beyond an ordinary random regular graph?",
+      "abstract": "A discrete-event flooding simulation compares rings, random regular graphs, bounded numerical spectral selection and a classical LPS construction. The pilot covers 80 constructions, 480 scenarios and 3,840 messages. It separates ordinary connectivity effects from benefits attributable to spectral selection.",
+      "findings": [
+        "With 2,048 nodes, degree 4, heterogeneous latency and no failures, median time to 95% delivery falls from 33.248 seconds for a ring to 0.589 seconds for a random regular graph.",
+        "Spectral selection adds no consistent gain. LPS median paired delivery-time changes range from -2.0% to +1.7%, below the prespecified 10% improvement threshold."
+      ],
+      "conclusion": "Global connectivity helps; additional spectral-selection gains are not established.",
+      "limitations": "The full deterministic family 178 construction is not implemented or benchmarked. The model is finite-burst eager flooding, not a live Gossipsub deployment. Pre-failure spectral quality does not guarantee delivery after failures.",
+      "keywords": [
+        "P2P broadcast",
+        "random regular graphs",
+        "Ramanujan graphs",
+        "LPS graphs",
+        "discrete-event simulation"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family178-p2p-topology/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family178-p2p-topology/README.md",
+      "guide_path": "experiments/family178-p2p-topology/PUBLICATION.md",
+      "manifest_path": "experiments/family178-p2p-topology/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family178-p2p-topology/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 11,
+      "report_sha256": "6ec1878445220cf4f092c8c7297879d21a9826f6947f9cf76ee3a4c11a280a37",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family178-p2p-topology/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family178-p2p-topology/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family178_p2p_topology",
+      "pull_request": "https://github.com/Lermont/math/pull/6",
+      "merged_at": "2026-10-11T21:39:01Z",
+      "evidence": [
+        {
+          "label": "Experiment plan",
+          "path": "experiments/family178-p2p-topology/p2p178/PLAN.md"
+        },
+        {
+          "label": "Measurement tables",
+          "path": "experiments/family178-p2p-topology/results/p2p178/pilot/measurements.md"
+        },
+        {
+          "label": "Per-message measurements",
+          "path": "experiments/family178-p2p-topology/results/p2p178/pilot/messages.csv"
+        },
+        {
+          "label": "Recorded verification",
+          "path": "experiments/family178-p2p-topology/results/p2p178/pilot/verification.json"
+        },
+        {
+          "label": "Source audit",
+          "path": "experiments/family178-p2p-topology/results/p2p178/source-audit.md"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family178-p2p-topology/references/p2p178/sources.json"
+        }
+      ],
+      "data_access": "Simulation code, message tables and selected verification/provenance records are published. The guide lists omitted graph and reference artifacts needed for complete archived-run checks.",
+      "reported_numeric_tokens": [
+        "33.248",
+        "0.589",
+        "-2.0%",
+        "+1.7%"
+      ]
+    },
+    {
+      "id": "family325-matrix-exponential",
+      "number": 7,
+      "family": 325,
+      "title": "Matrix-exponential actions: practical effect of a Crouzeix constant-2 bound",
+      "report_title": "Evaluate family 325 truncation bounds and their practical effect on matrix-exponential actions",
+      "research_question": "Does a tighter Crouzeix truncation bound materially reduce work for exp(A)x?",
+      "abstract": "A restricted disk/Taylor prototype uses the scalar consequence of the pinned family 325 theorem to choose a polynomial degree for exp(A)x. Rational arithmetic checks the numerical-range enclosure and exact-arithmetic truncation bound. The experiment separates changing the constant from reusing polynomial preparation.",
+      "findings": [
+        "Replacing 1 + sqrt(2) with 2 tightens a fixed-polynomial bound by 17.16%, but lowers degree by one in only 4 of 45 matched pairs.",
+        "Across the nonnormal case/tolerance combinations, total per-vector sparse matrix-vector products fall from 2,210 to 2,206, a 0.18% reduction."
+      ],
+      "conclusion": "A useful restricted bound with little measured work reduction from the constant alone.",
+      "limitations": "The certificate is conditional on the published theorem and does not certify complete float64 error. Repeated-input reuse can help with the older constant as well. The experiment is not an independent proof of the complete theorem.",
+      "keywords": [
+        "matrix exponential",
+        "Crouzeix inequality",
+        "numerical range",
+        "Taylor approximation",
+        "sparse linear algebra"
+      ],
+      "review_status": "No independent peer review is documented in this repository.",
+      "report_path": "experiments/family325-matrix-exponential/RESEARCH_REPORT.md",
+      "landing_path": "experiments/family325-matrix-exponential/README.md",
+      "guide_path": "experiments/family325-matrix-exponential/PUBLICATION.md",
+      "manifest_path": "experiments/family325-matrix-exponential/PUBLICATION_MANIFEST.json",
+      "tests_path": "experiments/family325-matrix-exponential/PUBLICATION_TESTS.txt",
+      "recorded_publication_test_executions": 6,
+      "report_sha256": "8be0d8a2c29576bbce002aa5aaecac8792fef614fc2831d1de8b2798d1ed6a35",
+      "report_permalink": "https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family325-matrix-exponential/RESEARCH_REPORT.md",
+      "report_raw_url": "https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family325-matrix-exponential/RESEARCH_REPORT.md",
+      "citation_key": "lermont2026_family325_matrix_exponential",
+      "pull_request": "https://github.com/Lermont/math/pull/7",
+      "merged_at": "2026-10-11T21:39:03Z",
+      "evidence": [
+        {
+          "label": "Experiment plan",
+          "path": "experiments/family325-matrix-exponential/filter325/PLAN.md"
+        },
+        {
+          "label": "Bound derivation",
+          "path": "experiments/family325-matrix-exponential/filter325/THEORY.md"
+        },
+        {
+          "label": "Measurements",
+          "path": "experiments/family325-matrix-exponential/results/filter325/run-20261011/measurements.csv"
+        },
+        {
+          "label": "Recorded validation",
+          "path": "experiments/family325-matrix-exponential/results/filter325/run-20261011/validation.json"
+        },
+        {
+          "label": "Source provenance",
+          "path": "experiments/family325-matrix-exponential/references/filter325/manifest.json"
+        }
+      ],
+      "data_access": "Measurements, case metadata and validation summaries are included. Matrix caches, output vectors and some downloaded sources are omitted; exact archived-run numerical validation needs the omitted outputs.",
+      "reported_numeric_tokens": [
+        "17.16%",
+        "2,210",
+        "2,206",
+        "0.18%"
+      ]
+    }
+  ]
+}

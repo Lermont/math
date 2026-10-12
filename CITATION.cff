@@ -1,0 +1,90 @@
+cff-version: 1.2.0
+message: Cite this record only for the independent experiments under experiments/. Cite upstream mathematical
+  manuscripts separately. See CITATION.md for individual report permalinks and scope.
+type: software
+title: Seven practical experiments associated with openai/math
+authors:
+- name: Lermont
+  website: https://github.com/Lermont
+abstract: Seven independent empirical studies and technical reports covering string storage, Elliptic2
+  graph features, metric k-median and PAM, P2P broadcast topology, and matrix-exponential actions. Includes
+  positive and negative results, reproducibility guides, and limitations. No independent peer review is
+  documented in the repository.
+repository-code: https://github.com/Lermont/math
+url: https://github.com/Lermont/math/tree/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments
+commit: 60ed0f3d9dacd3a279008241328b7692dbb211b8
+version: git-60ed0f3
+date-released: '2026-10-11'
+license: Apache-2.0
+keywords:
+- reproducible research
+- experimental mathematics
+- string storage
+- Elliptic2
+- k-medoids
+- P2P topology
+- matrix exponential
+references:
+- type: report
+  title: Evaluate family 128 shortest-superstring storage against indexed and compressed baselines
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family128-string-storage/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Evaluate family 131 degree-preserving null features on isolated Elliptic2 subgraphs
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-isolated-subgraphs/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Test whether one-hop Elliptic2 context changes the value of family 131 null features
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-neighbor-context/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Audit family 125 feasibility and benchmark an explicitly heuristic LP rounding pipeline
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-feasibility-pilot/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Measure OneBatchPAM scaling and rare-client failures against FasterPAM
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-pam-scale/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Benchmark spectral topology selection for P2P broadcast and audit family 178 feasibility
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family178-p2p-topology/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.
+- type: report
+  title: Evaluate family 325 truncation bounds and their practical effect on matrix-exponential actions
+  authors:
+  - name: Lermont
+    website: https://github.com/Lermont
+  year: 2026
+  url: https://github.com/Lermont/math/blob/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family325-matrix-exponential/RESEARCH_REPORT.md
+  notes: Independent community experiment; see the report for assumptions, uncertainty, and reproduction
+    limits.

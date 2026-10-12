@@ -1,0 +1,33 @@
+# Lermont/math practical experiments
+
+> Seven independent community experiments associated with openai/math: string storage, Elliptic2 graph features, metric k-median and PAM, P2P topology, and matrix-exponential actions.
+
+This reading guide covers the fork's experiments, not the authorship or verification of the entire upstream mathematical collection. English reports retain negative results and implementation limits. No independent peer review is documented. Full family 125 and family 178 algorithms were not implemented; finite MCMC mixing and complete float64 error are not certified.
+
+Current navigation may change. The seven report links below point to the fixed evidence snapshot 60ed0f3d9dacd3a279008241328b7692dbb211b8; each report links to the included measurements, source provenance, and reproduction guide. Raw Elliptic2 data and some large artifacts are excluded. This file is an optional reading aid, not a crawler access policy or a promise of search or model inclusion.
+
+## Start here
+
+- [Research directory](https://raw.githubusercontent.com/Lermont/math/main/experiments/README.md): Scope and navigation for all seven studies.
+- [Research integrity](https://raw.githubusercontent.com/Lermont/math/main/experiments/RESEARCH_INTEGRITY.md): Authorship, AI assistance, review status, checks, and omissions.
+- [Citation guide](https://raw.githubusercontent.com/Lermont/math/main/CITATION.md): Account attribution and immutable report references.
+- [Machine-readable catalogue](https://raw.githubusercontent.com/Lermont/math/main/experiments/index.json): Findings, limitations, evidence paths, and report hashes.
+
+## Detailed reports
+
+- [Shortest-superstring string storage: family 128 benchmark](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family128-string-storage/RESEARCH_REPORT.md): Useful overlap-specific storage tradeoff; no general compressor replacement.
+- [Elliptic2 isolated subgraphs: degree-preserving MCMC features](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-isolated-subgraphs/RESEARCH_REPORT.md): No convincing incremental AP benefit on isolated subgraphs.
+- [Elliptic2 neighboring context: graph features and MCMC ablation](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family131-neighbor-context/RESEARCH_REPORT.md): Context helps on this split; incremental MCMC benefit remains unestablished.
+- [Metric k-median: feasibility audit and LP rounding pilot](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-feasibility-pilot/RESEARCH_REPORT.md): A costly heuristic quality check, with no per-instance dominance or evaluation of the full construction.
+- [OneBatchPAM versus FasterPAM: scaling and rare-client coverage](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family125-pam-scale/RESEARCH_REPORT.md): Substantial resource savings can come with severe rare-client failures.
+- [P2P broadcast topology: random regular, spectral selection and LPS graphs](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family178-p2p-topology/RESEARCH_REPORT.md): Global connectivity helps; additional spectral-selection gains are not established.
+- [Matrix-exponential actions: practical effect of a Crouzeix constant-2 bound](https://raw.githubusercontent.com/Lermont/math/60ed0f3d9dacd3a279008241328b7692dbb211b8/experiments/family325-matrix-exponential/RESEARCH_REPORT.md): A useful restricted bound with little measured work reduction from the constant alone.
+
+## Citation metadata
+
+- [CITATION.cff](https://raw.githubusercontent.com/Lermont/math/main/CITATION.cff): Collection software citation; excludes authorship of the upstream manuscripts.
+- [Individual BibTeX entries](https://raw.githubusercontent.com/Lermont/math/main/experiments/CITATIONS.bib): Seven reports at the fixed Git snapshot.
+
+## Optional
+
+- [Pinned upstream collection](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb): Original mathematical sources; cite manuscripts separately.
